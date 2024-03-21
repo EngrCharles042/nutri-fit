@@ -1,6 +1,6 @@
 export const Faq = () => {
   return (
-    <div className="flex flex-col mx-20 items-center text-2xl font-bold text-zinc-500">
+    <div className="flex flex-col mx-20 max-md:mx-10 items-center text-2xl font-bold text-zinc-500">
       <div className="text-5xl font-bold my-20 text-teal-800 max-w-[107px]">FAQs</div>
       <div className="flex gap-5 px-5 max-md:px-0 w-full max-md:flex-wrap max-md:max-w-full">
         <div className="flex-auto">How does the NutriFit work?</div>
