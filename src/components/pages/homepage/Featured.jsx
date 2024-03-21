@@ -5,7 +5,7 @@ import img7 from "../../../assets/images/homepage/img7.svg";
 export const Featured = () => {
   return (
     <div className="flex flex-col px-5">
-      <div className="self-center text-5xl font-bold text-teal-800 max-md:max-w-full max-md:text-4xl">
+      <div className="flex self-center text-5xl font-bold text-teal-800 max-md:max-w-full max-md:text-4xl">
         Our Featured Services
       </div>
       <div className="my-20 w-full max-md:mt-10 max-md:max-w-full">
@@ -17,7 +17,7 @@ export const Featured = () => {
                 srcSet={img5}
                 className="object-cover absolute inset-0 size-full"
               />
-              <div className="relative justify-center items-center top-[22rem] left-[10rem] rounded-none max-md:px-5 max-md:mt-10">
+              <div className="relative justify-center items-center top-[22rem] max-md:top-[15rem] left-[10rem] rounded-none max-md:px-5 max-md:mt-10">
                 {" "}
                 Meal Plans
               </div>
@@ -30,7 +30,7 @@ export const Featured = () => {
                 srcSet={img6}
                 className="object-cover absolute inset-0 size-full"
               />
-              <div className="relative justify-center items-center top-[22rem] left-[10rem] rounded-none max-md:px-5 max-md:mt-10">
+              <div className="relative justify-center items-center top-[22rem] max-md:top-[15rem] left-[10rem] rounded-none max-md:px-5 max-md:mt-10">
                 Exercises
               </div>
             </div>
@@ -42,7 +42,7 @@ export const Featured = () => {
                 srcSet={img7}
                 className="object-cover absolute inset-0 size-full"
               />
-              <div className="relative justify-center items-center top-[22rem] left-[5rem] rounded-none max-md:px-5 max-md:mt-10">
+              <div className="relative justify-center items-center top-[22rem] max-md:top-[15rem] left-[5rem] rounded-none max-md:px-5 max-md:mt-10">
                 Allergy-Friendly Recipes
               </div>
             </div>

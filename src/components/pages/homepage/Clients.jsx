@@ -31,7 +31,7 @@ export const Clients = () => {
               alt="John Anderson"
             />
             <div>
-              <div className="text-base text-left font-medium">
+              <div className="text-base text-left font-medium whitespace-nowrap">
                 John Anderson
               </div>
               <div className="text-sm text-left">Entrepreneur</div>
@@ -58,7 +58,7 @@ export const Clients = () => {
               alt="Sarah Johnson"
             />
             <div>
-              <div className="text-base text-left font-medium">
+              <div className="text-base text-left font-medium whitespace-nowrap">
                 Sarah Johnson
               </div>
               <div className="text-sm text-left">CEO Boutique</div>
@@ -85,7 +85,7 @@ export const Clients = () => {
               alt="Emily Turner"
             />
             <div>
-              <div className="text-base text-left font-medium">
+              <div className="text-base text-left font-medium whitespace-nowrap">
                 Emily Turner
               </div>
               <div className="text-sm text-left">Founder EventMasters</div>

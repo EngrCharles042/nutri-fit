@@ -2,7 +2,7 @@ import img8 from "../../../assets/images/homepage/img8.svg";
 
 export const Why = () => {
   return (
-    <div className="bg-red-500 bg-opacity-10 min-h-[631px]">
+    <div className="mt-20 bg-red-500 bg-opacity-10">
       <div className="text-5xl text-center py-20 font-bold text-teal-800">
         Why NutriFit?
       </div>
