@@ -3,10 +3,10 @@ import img8 from "../../../assets/images/homepage/img8.svg";
 export const Why = () => {
   return (
     <div className="bg-red-500 bg-opacity-10 min-h-[631px]">
-      <div className="text-5xl mx-auto font-bold text-teal-800 max-w-[283px]">
+      <div className="text-5xl text-center py-20 font-bold text-teal-800">
         Why NutriFit?
       </div>
-      <div className="flex flex-col text-lg px-[6rem] font-bold text-zinc-500">
+      <div className="flex flex-col text-lg px-[6rem] pb-20 font-bold text-zinc-500">
         <div className="flex gap-5 w-full max-md:flex-wrap max-md:pr-5 max-md:max-w-full">
           <div className="flex justify-center flex-1 gap-5">
             <img

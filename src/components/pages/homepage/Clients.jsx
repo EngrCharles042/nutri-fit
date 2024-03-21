@@ -15,7 +15,7 @@ export const Clients = () => {
         <h2 className="mt-4 text-4xl font-bold text-teal-800 leading-[54px]">
           What Our Clients Say
         </h2>
-        <p className="mt-4 text-lg leading-7 text-zinc-500">
+        <p className="mt-4 text-lg leading-7 mx-auto max-w-[667px] text-zinc-500">
           Discover the experiences of our satisfied clients as they share
           stories of success, collaboration, and the transformative impact of
           choosing NutriFit.
