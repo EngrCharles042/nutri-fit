@@ -35,7 +35,7 @@ export const About = () => {
           srcSet={img3}
           className="w-full relative top-[5rem] rounded-full shadow-sm aspect-square max-w-[158px] max-md:hidden"
         />
-        <div className="flex gap-5 justify-center mx-10 pl-16 text-lg font-bold border border-red-500 border-solid max-w-[33.438rem] rounded-[50px] text-neutral-700 max-md:pl-5 max-md:mt-10">
+        <div className="flex gap-5 justify-center mx-10 pl-16 text-lg font-bold border border-amber-700 border-solid max-w-[33.438rem] rounded-[50px] text-neutral-700 max-md:pl-5 max-md:mt-10">
           <div className="flex-auto my-auto">
             Ready to begin your healthy journey?{" "}
           </div>

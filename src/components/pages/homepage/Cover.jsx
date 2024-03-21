@@ -9,11 +9,11 @@ export const Cover = () => {
           srcSet={coverImg}
           className="object-cover absolute inset-0 size-full"
         />
-        <div className="flex relative gap-2 mt-[477px] max-md:mt-10">
+        {/* <div className="flex relative gap-2 mt-[477px] max-md:mt-10">
           <div className="shrink-0 w-4 h-4 bg-white rounded-full" />
           <div className="shrink-0 w-4 h-4 bg-red-500 rounded-full" />
           <div className="shrink-0 w-4 h-4 bg-red-500 rounded-full" />
-        </div>
+        </div> */}
       </div>
 
       <div className="absolute flex flex-col px-5 ml-20 text-white max-w-[520px]">
@@ -27,7 +27,7 @@ export const Cover = () => {
           <br />
           food is life’s greatest pleasure.
         </div>
-        <div className="flex gap-2.5 mt-8 justify-center px-8 py-3.5 w-[15rem] text-lg font-bold text-red-500 bg-white rounded-xl">
+        <div className="flex gap-2.5 mt-8 justify-center px-8 py-3.5 w-[15rem] text-lg font-bold text-amber-700 bg-white rounded-xl">
           <div className="grow my-auto">How It Works</div>
           <img
             loading="lazy"
