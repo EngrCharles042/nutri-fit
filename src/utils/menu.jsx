@@ -1,13 +1,13 @@
 export const MobileMenu = () => {
     return (
-      <div className="flex flex-col px-11 py-10 text-lg bg-orange-50 rounded-xl max-w-[351px] text-zinc-500">
+      <div className="flex flex-col px-11 pb-10 text-lg bg-orange-50 rounded-xl max-w-[351px] text-zinc-500">
         <div className="flex gap-5 justify-between py-1.5 text-2xl font-bold whitespace-nowrap text-neutral-700">
-          <div>LOGO</div>
+          {/* <div>LOGO</div>
           <img
             loading="lazy"
             src="https://cdn.builder.io/api/v1/image/assets/TEMP/898925c7a38243cae89cdfa4975e3e8eceafc478a920b7c2e5908e74a4fd73d8?"
             className="shrink-0 self-start w-4 aspect-square fill-neutral-700"
-          />
+          /> */}
         </div>
         <div className="flex gap-4 mt-16 whitespace-nowrap">
           <img

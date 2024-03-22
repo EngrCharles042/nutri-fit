@@ -6,7 +6,7 @@ import img25 from "../../../assets/images/exercise/img25.svg";
 
 export const Pilates = () => {
     return (
-      <div className="flex flex-col px-5">
+      <div className="flex flex-col px-5 mt-20">
         <div className="self-center text-5xl font-bold text-teal-800 leading-[54px] max-md:text-4xl">
           Pilates Exercises
         </div>

@@ -1,6 +1,6 @@
 import { Footer } from "../../../utils/Footer"
 import { Header } from "../../../utils/Header"
-import { Choice } from "./Choice"
+import { BestChoice } from "./BestChoice"
 import { Fitness } from "./Fitness"
 import { Cover } from "./Cover"
 import { Instructors } from "./FitnessInstructors"
@@ -15,7 +15,7 @@ const ExercisePage = () => {
           <div className="m-auto bg-yellow-50">
             <Header />
             <Cover />
-            <Choice />
+            <BestChoice />
             <Fitness />
             <Instructors />
             <Yoga />

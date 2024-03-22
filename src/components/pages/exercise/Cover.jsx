@@ -18,7 +18,7 @@ export const Cover = () => {
           With our numerous exercises here at NutriFit, we have got your body
           covered. From Fitness to Yoga to Pilates, we are here for you.
         </div>
-        <div className="justify-center px-8 py-5 mt-10 bg-red-500 rounded-xl max-md:px-5">
+        <div className="justify-center px-8 py-5 mt-10 bg-amber-700 rounded-xl max-md:px-5">
           Get Started Now
         </div>
       </div>
