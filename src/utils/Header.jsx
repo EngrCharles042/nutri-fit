@@ -29,7 +29,7 @@ export const Header = () => {
               Allergy-friendly Recipes
             </Link>
             <Link to="/meal-plan" className="hover:text-white hover:bg-amber-700 focus:text-amber-700 rounded-xl px-3 py-5 self-stretch my-auto cursor-pointer">Meal Plans</Link>
-            <Link to="/" className="hover:text-white hover:bg-amber-700 focus:text-amber-700 rounded-xl px-3 py-5 self-stretch my-auto cursor-pointer">Community</Link>
+            <Link to="/community" className="hover:text-white hover:bg-amber-700 focus:text-amber-700 rounded-xl px-3 py-5 self-stretch my-auto cursor-pointer">Community</Link>
             <div className="justify-center self-stretch px-3 py-5 hover:text-white hover:bg-amber-700 rounded-xl cursor-pointer max-md:px-5">
               Contact US
             </div>

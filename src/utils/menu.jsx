@@ -41,7 +41,7 @@ export const MobileMenu = () => {
             src="https://cdn.builder.io/api/v1/image/assets/TEMP/f3545a3f82f27b5de7cfc1e4ba0736d2fbc4796bfa5457a6f6ad0493bc7484dd?"
             className="shrink-0 self-start w-5 aspect-square fill-zinc-500"
           />
-          <Link to="/"className="flex-auto">Community</Link>
+          <Link to="/community"className="flex-auto">Community</Link>
         </div>
       </div>
     );
