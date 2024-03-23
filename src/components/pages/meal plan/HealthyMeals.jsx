@@ -19,9 +19,15 @@ export const HealthyMeals = () => {
         <div className="flex px-7 py-3 cursor-pointer hover:text-white hover:bg-amber-700 rounded-xl max-md:px-5">
           Proteins
         </div>
-        <div className="flex px-7 py-3 cursor-pointer hover:text-white hover:bg-amber-700 rounded-xl">Vegetables</div>
-        <div className="flex px-7 py-3 cursor-pointer hover:text-white hover:bg-amber-700 rounded-xl">Fruits</div>
-        <div className="flex px-7 py-3 cursor-pointer hover:text-white hover:bg-amber-700 rounded-xl">Carbohydrates</div>
+        <div className="flex px-7 py-3 cursor-pointer hover:text-white hover:bg-amber-700 rounded-xl">
+          Vegetables
+        </div>
+        <div className="flex px-7 py-3 cursor-pointer hover:text-white hover:bg-amber-700 rounded-xl">
+          Fruits
+        </div>
+        <div className="flex px-7 py-3 cursor-pointer hover:text-white hover:bg-amber-700 rounded-xl">
+          Carbohydrates
+        </div>
       </div>
       <div className="flex gap-5 mt-24 w-full text-4xl font-bold leading-10 text-teal-800 whitespace-nowrap max-md:flex-wrap max-md:mt-10 max-md:max-w-full">
         <div className="flex-auto">Breakfast(Meal)</div>
@@ -104,11 +110,7 @@ export const HealthyMeals = () => {
           </div>
         </div>
       </div>
-      <img
-        loading="lazy"
-        src="https://cdn.builder.io/api/v1/image/assets/TEMP/8a09fbdb18ac95eba2b1f8765d7a186ab3d20b89fa2d26a0eb09503e245cc256?"
-        className="mt-24 w-full border border-solid border-neutral-700 stroke-[1px] stroke-neutral-700 max-md:mt-10 max-md:max-w-full"
-      />
+      <div className="shrink-0 mt-20 h-px border border-solid bg-neutral-700 border-neutral-700 max-md:max-w-full" />
       <div className="flex gap-5 mt-20 w-full text-4xl font-bold leading-10 text-teal-800 whitespace-nowrap max-md:flex-wrap max-md:mt-10 max-md:max-w-full">
         <div className="flex-auto">Lunch(Meal)</div>
         <div className="flex-auto max-md:max-w-full">Lunch(Snacks)</div>
@@ -187,11 +189,7 @@ export const HealthyMeals = () => {
           </div>
         </div>
       </div>
-      <img
-        loading="lazy"
-        src="https://cdn.builder.io/api/v1/image/assets/TEMP/8a09fbdb18ac95eba2b1f8765d7a186ab3d20b89fa2d26a0eb09503e245cc256?"
-        className="mt-32 w-full border border-solid border-neutral-700 stroke-[1px] stroke-neutral-700 max-md:mt-10 max-md:max-w-full"
-      />
+      <div className="shrink-0 mt-20 h-px border border-solid bg-neutral-700 border-neutral-700 max-md:max-w-full" />
       <div className="flex gap-5 mt-24 w-full text-4xl font-bold leading-10 text-teal-800 whitespace-nowrap max-md:flex-wrap max-md:mt-10 max-md:max-w-full">
         <div className="flex-auto">Dinner(Meal)</div>
         <div className="flex-auto max-md:max-w-full">Dinner(Snacks)</div>
