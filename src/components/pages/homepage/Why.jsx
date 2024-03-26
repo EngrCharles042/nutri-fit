@@ -2,13 +2,13 @@ import img8 from "../../../assets/images/homepage/img8.svg";
 
 export const Why = () => {
   return (
-    <div className="mt-20 bg-red-500 bg-opacity-10">
+    <div className="mt-20 bg-red-500 bg-opacity-10 flex flex-col items-center justify-center">
       <div className="text-5xl text-center py-20 font-bold text-teal-800">
         Why NutriFit?
       </div>
-      <div className="flex flex-col text-lg px-[6rem] pb-20 font-bold text-zinc-500">
-        <div className="flex gap-5 w-full max-md:flex-wrap max-md:pr-5 max-md:max-w-full">
-          <div className="flex justify-center flex-1 gap-5">
+      <div className="flex flex-col text-lg pb-20 font-bold text-zinc-500">
+        <div className="flex gap-5 w-full max-md:px-5 max-md:flex-col max-md:pr-5 max-md:max-w-full">
+          <div className="flex flex-1 gap-5">
             <img
               loading="lazy"
               src="https://cdn.builder.io/api/v1/image/assets/TEMP/98af8689f77e0ae781813c40db94fef51ae7295421c744a5248cd2cdcc5e715f?"
@@ -20,7 +20,7 @@ export const Why = () => {
               workout videos
             </div>
           </div>
-          <div className="flex flex-1 gap-5">
+          <div className="flex flex-1 pl-40 max-md:pl-0 gap-5">
             <img
               loading="lazy"
               src="https://cdn.builder.io/api/v1/image/assets/TEMP/98af8689f77e0ae781813c40db94fef51ae7295421c744a5248cd2cdcc5e715f?"
@@ -33,8 +33,8 @@ export const Why = () => {
             </div>
           </div>
         </div>
-        <div className="flex gap-5 justify-between mt-12 w-full max-md:flex-wrap max-md:pr-5 max-md:mt-10 max-md:max-w-full">
-          <div className="flex gap-5">
+        <div className="flex gap-5 justify-between mt-12 w-full max-md:px-5 max-md:flex-col max-md:pr-5 max-md:mt-10 max-md:max-w-full">
+          <div className="flex flex-1 gap-5">
             <img
               loading="lazy"
               src="https://cdn.builder.io/api/v1/image/assets/TEMP/a5de44ea399238eee54161c7dae22cdd388d776ec4fb9eeee6cca34d36d26033?"
@@ -44,7 +44,7 @@ export const Why = () => {
               Expert guidance and instructions
             </div>
           </div>
-          <div className="flex gap-5">
+          <div className="flex flex-1 pl-40 max-md:pl-0 gap-5">
             <img
               loading="lazy"
               src="https://cdn.builder.io/api/v1/image/assets/TEMP/98af8689f77e0ae781813c40db94fef51ae7295421c744a5248cd2cdcc5e715f?"
@@ -57,8 +57,8 @@ export const Why = () => {
             </div>
           </div>
         </div>
-        <div className="flex gap-5 justify-between px-px mt-12 w-full max-md:flex-wrap max-md:mt-10 max-md:max-w-full">
-          <div className="flex gap-5 px-5">
+        <div className="flex gap-5 justify-between mt-12 w-full max-md:px-5 max-md:flex-col max-md:pr-5 max-md:mt-10 max-md:max-w-full">
+          <div className="flex flex-1 gap-5">
             <img
               loading="lazy"
               src="https://cdn.builder.io/api/v1/image/assets/TEMP/7dc385d9ce100a5318cf972c76d54bb2e715a37993f0f630c5ecadd0787b7089?"
@@ -66,7 +66,7 @@ export const Why = () => {
             />
             <div className="flex-auto my-auto">Real-time results</div>
           </div>
-          <div className="flex gap-5 px-5">
+          <div className="flex flex-1 pl-40 max-md:pl-0 gap-5">
             <img
               loading="lazy"
               src="https://cdn.builder.io/api/v1/image/assets/TEMP/98af8689f77e0ae781813c40db94fef51ae7295421c744a5248cd2cdcc5e715f?"
@@ -85,3 +85,5 @@ export const Why = () => {
     </div>
   );
 };
+
+// justify-center items-center self-center
