@@ -1,17 +1,30 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { MobileMenu } from "./menu";
 import { Link } from "react-router-dom";
 
 export const Header = () => {
   const [showMenu, setShowMenu] = useState(false);
+  const [isSticky, setIsSticky] = useState(false);
 
   const toggleMenu = () => {
     setShowMenu(!showMenu);
   };
 
+  useEffect(() => {
+    const handleScroll = () => {
+      const isScrolled = window.scrollY > 0;
+      setIsSticky(isScrolled);
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
   return (
-    <div className="flex flex-col justify-center">
+    <div className={`flex flex-col justify-center ${isSticky ? "sticky-header" : ""}`}>
       <div className="flex justify-center items-center px-16 py-10 w-full max-md:px-5 max-md:max-w-full">
         <div className="flex justify-between gap-5 w-full max-w-[1239px] max-md:flex-wrap max-md:max-w-full">
           <Link

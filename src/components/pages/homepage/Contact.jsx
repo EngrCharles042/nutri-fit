@@ -1,4 +1,38 @@
+import { useState } from "react";
+
 export const Contact = () => {
+  const [formData, setFormData] = useState({
+    fullName: "",
+    phoneNumber: "",
+    email: "",
+    message: "",
+  });
+
+  const handleChange = (e) => {
+    setFormData({ ...formData, [e.target.name]: e.target.value });
+  };
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+
+    try {
+        // Handle success (redirect, show message, etc.)
+        console.log("Message sent succesfully!!!");
+
+        // Reset form data
+    setFormData({
+      fullName: "",
+      phoneNumber: "",
+      email: "",
+      message: "",
+    });
+
+    } catch (error) {
+      // Handle error (display error message, log, etc.)
+      console.error("Message sending failed:", error.message);
+    }
+  };
+
   return (
     <div className="flex flex-col items-center px-20 my-40 py-14 bg-red-50 max-md:px-5">
       <div className="text-5xl font-bold text-teal-800 max-md:text-4xl">
@@ -12,28 +46,52 @@ export const Contact = () => {
       </div>
       <div className="mt-9 w-full max-w-[1240px] max-md:max-w-full">
         <div className="flex gap-5 max-md:flex-col max-md:gap-0">
-          <div className="flex flex-col w-[63%] max-md:ml-0 max-md:w-full">
+          <form onSubmit={handleSubmit} className="flex flex-col w-[63%] max-md:ml-0 max-md:w-full">
             <div className="flex flex-col grow items-start text-lg font-bold text-zinc-800 max-md:mt-10 max-md:max-w-full">
               <input
+              type="text"
+              name="fullName"
+              value={formData.fullName}
+              onChange={handleChange}
+              id="full-name"
+              autoComplete="given-name"
                 className="justify-center items-start p-5 max-w-full rounded-xl border border-solid border-zinc-800 w-[428px]"
                 placeholder="Full Name"
               />
               <input
+              type="tel"
+              name="phoneNumber"
+              value={formData.phoneNumber}
+              onChange={handleChange}
+              id="tel"
+              autoComplete="tel"
                 className="justify-center items-start p-5 mt-7 max-w-full rounded-xl border border-solid border-zinc-800 w-[428px]"
                 placeholder="Phone Number"
               />
               <input
+              type="email"
+              name="email"
+              value={formData.email}
+              onChange={handleChange}
+              id="email"
+              autoComplete="email"
                 className="justify-center items-start p-5 mt-7 max-w-full whitespace-nowrap rounded-xl border border-solid border-zinc-800 w-[428px]"
                 placeholder="Email"
               />
-              <textarea className="items-start self-stretch px-7 pt-9 pb-48 mt-7 whitespace-nowrap rounded-3xl border border-solid border-zinc-800 max-md:px-5 max-md:pb-10 max-md:max-w-full"
+              <textarea
+              name="message"
+              value={formData.message}
+              onChange={handleChange}
+              className="items-start self-stretch px-7 pt-9 pb-48 mt-7 whitespace-nowrap rounded-3xl border border-solid border-zinc-800 max-md:px-5 max-md:pb-10 max-md:max-w-full"
                 placeholder="Message"
               />
-              <div className="justify-center px-5 py-3.5 mt-7 text-white bg-amber-700 rounded-2xl cursor-pointer hover:bg-green-600">
+              <button
+              type="submit"
+              className="justify-center px-5 py-3.5 mt-7 text-white bg-amber-700 rounded-2xl cursor-pointer hover:bg-green-600">
                 Send Message
-              </div>
+              </button>
             </div>
-          </div>
+          </form>
           <div className="flex flex-col flex-wrap ml-5 w-[37%] max-md:ml-0 max-md:w-full">
             <div className="flex flex-col items-start self-stretch px-14 py-20 my-auto w-full text-lg rounded-xl bg-amber-700 bg-opacity-20 text-zinc-800 max-md:px-5 max-md:mt-10">
               <div className="text-4xl text-center font-bold text-teal-800">
