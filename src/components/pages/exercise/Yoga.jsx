@@ -7,7 +7,7 @@ import img18 from "../../../assets/images/exercise/img18.svg";
 
 export const Yoga = () => {
   return (
-    <div className="flex flex-col px-5 mt-20">
+    <div className="flex flex-col px-5 py-20 mt-20 bg-red-50 shadow-md">
       <div className="self-center text-5xl font-bold text-teal-800 leading-[54px] max-md:text-4xl">
         Yoga Exercises
       </div>

@@ -1,7 +1,7 @@
 export const Users = () => {
   return (
     <div className="flex justify-center items-center px-16 py-20 text-white bg-teal-800 max-md:px-5">
-      <div className="flex gap-5 justify-between mt-14 w-full max-w-[1124px] max-md:flex-wrap max-md:mt-10 max-md:max-w-full">
+      <div className="flex gap-5 justify-between mt-14 w-full max-w-[70.25rem] max-md:flex-wrap max-md:mt-10 max-md:max-w-full">
         <div className="flex flex-col">
           <div className="flex gap-3.5 font-bold">
             <div className="grow text-5xl max-md:text-4xl">100+ </div>
@@ -13,7 +13,7 @@ export const Users = () => {
             our website
           </div>
         </div>
-        <div className="shrink-0 my-auto w-px bg-white border border-white border-solid h-[60px] max-md:hidden" />
+        <div className="shrink-0 my-auto w-px bg-white border border-white border-solid h-[3.75rem] max-md:hidden" />
         <div className="flex flex-col">
           <div className="self-center text-5xl font-bold max-md:text-4xl">
             20+
@@ -24,7 +24,7 @@ export const Users = () => {
             at NutriFit
           </div>
         </div>
-        <div className="shrink-0 my-auto w-px bg-white border border-white border-solid h-[60px] max-md:hidden" />
+        <div className="shrink-0 my-auto w-px bg-white border border-white border-solid h-[3.75rem] max-md:hidden" />
         <div className="flex flex-col">
           <div className="flex gap-2.5 self-center font-bold whitespace-nowrap">
             <div className="flex flex-1 gap-1 text-5xl max-md:text-4xl">
@@ -39,7 +39,7 @@ export const Users = () => {
             and fitness
           </div>
         </div>
-        <div className="shrink-0 my-auto w-px bg-white border border-white border-solid h-[60px] max-md:hidden" />
+        <div className="shrink-0 my-auto w-px bg-white border border-white border-solid h-[3.75rem] max-md:hidden" />
         <div className="flex flex-col">
           <div className="flex gap-3.5 font-bold whitespace-nowrap">
             <div className="grow text-5xl max-md:text-4xl">100+</div>

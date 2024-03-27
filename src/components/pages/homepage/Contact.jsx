@@ -44,7 +44,7 @@ export const Contact = () => {
       <div className="mt-16 text-4xl font-bold text-teal-800 max-md:mt-10 max-md:max-w-full">
         Get in Touch
       </div>
-      <div className="mt-9 w-full max-w-[1240px] max-md:max-w-full">
+      <div className="mt-9 w-full max-w-[77.5rem] max-md:max-w-full">
         <div className="flex gap-5 max-md:flex-col max-md:gap-0">
           <form onSubmit={handleSubmit} className="flex flex-col w-[63%] max-md:ml-0 max-md:w-full">
             <div className="flex flex-col grow items-start text-lg font-bold text-zinc-800 max-md:mt-10 max-md:max-w-full">
@@ -55,7 +55,7 @@ export const Contact = () => {
               onChange={handleChange}
               id="full-name"
               autoComplete="given-name"
-                className="justify-center items-start p-5 max-w-full rounded-xl border border-solid border-zinc-800 w-[428px]"
+                className="justify-center items-start p-5 max-w-full rounded-xl border border-solid border-zinc-800 w-[26.75rem]"
                 placeholder="Full Name"
               />
               <input
@@ -65,7 +65,7 @@ export const Contact = () => {
               onChange={handleChange}
               id="tel"
               autoComplete="tel"
-                className="justify-center items-start p-5 mt-7 max-w-full rounded-xl border border-solid border-zinc-800 w-[428px]"
+                className="justify-center items-start p-5 mt-7 max-w-full rounded-xl border border-solid border-zinc-800 w-[26.75rem]"
                 placeholder="Phone Number"
               />
               <input
@@ -75,7 +75,7 @@ export const Contact = () => {
               onChange={handleChange}
               id="email"
               autoComplete="email"
-                className="justify-center items-start p-5 mt-7 max-w-full whitespace-nowrap rounded-xl border border-solid border-zinc-800 w-[428px]"
+                className="justify-center items-start p-5 mt-7 max-w-full whitespace-nowrap rounded-xl border border-solid border-zinc-800 w-[26.75rem]"
                 placeholder="Email"
               />
               <textarea

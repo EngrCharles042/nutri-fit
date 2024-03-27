@@ -2,7 +2,7 @@ import coverImg from "../../../assets/images/homepage/coverImg.svg";
 
 export const Cover = () => {
   return (
-    <div className="flex overflow-hidden relative flex-col items-start p-20 text-lg font-bold text-white min-h-[620px] max-md:px-5 max-md:items-center">
+    <div className="flex overflow-hidden relative flex-col items-start p-20 text-lg font-bold text-white min-h-[38.75rem] max-md:px-5 max-md:items-center">
       <img
         loading="lazy"
         srcSet={coverImg}

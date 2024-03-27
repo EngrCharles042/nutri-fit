@@ -85,5 +85,3 @@ export const Why = () => {
     </div>
   );
 };
-
-// justify-center items-center self-center

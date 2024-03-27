@@ -10,7 +10,7 @@ export const Faq = () => {
 
   return (
     <div className="flex flex-col mx-20 max-md:mx-10 items-center text-2xl font-bold text-zinc-500">
-      <div className="text-5xl font-bold my-20 text-teal-800 max-w-[107px]">
+      <div className="text-5xl font-bold my-20 text-teal-800 max-w-[6.688rem]">
         FAQs
       </div>
       <div className="flex flex-col gap-5 px-5 max-md:px-0 w-full max-md:max-w-full cursor-pointer">
@@ -35,7 +35,7 @@ export const Faq = () => {
           </div>
         )}
       </div>
-      <div className="mt-10 w-full border border-solid bg-zinc-500 border-zinc-500 min-h-[1px] max-md:max-w-full" />
+      <div className="mt-10 w-full border border-solid bg-zinc-500 border-zinc-500 min-h-[0.063rem] max-md:max-w-full" />
       <div className="flex flex-col gap-5 px-5 max-md:px-0 mt-10 w-full max-md:max-w-full cursor-pointer">
         <div
           className="flex max-md:flex-wrap items-center max-md:max-w-full"
@@ -62,7 +62,7 @@ export const Faq = () => {
           </div>
         )}
       </div>
-      <div className="mt-9 w-full border border-solid bg-zinc-500 border-zinc-500 min-h-[1px] max-md:max-w-full" />
+      <div className="mt-9 w-full border border-solid bg-zinc-500 border-zinc-500 min-h-[0.063rem] max-md:max-w-full" />
       <div className="flex flex-col gap-5 px-5 max-md:px-0 mt-9 w-full max-md:flex-wrap max-md:max-w-full cursor-pointer">
         <div
           className="flex max-md:flex-wrap items-center max-md:max-w-full"
@@ -86,7 +86,7 @@ export const Faq = () => {
           </div>
         )}
       </div>
-      <div className="mt-9 w-full border border-solid bg-zinc-500 border-zinc-500 min-h-[1px] max-md:max-w-full" />
+      <div className="mt-9 w-full border border-solid bg-zinc-500 border-zinc-500 min-h-[0.063rem] max-md:max-w-full" />
       <div className="flex flex-col gap-5 px-5 max-md:px-0 mt-10 w-full max-md:flex-wrap max-md:max-w-full cursor-pointer">
         <div
           className="flex max-md:flex-wrap items-center max-md:max-w-full"
@@ -108,7 +108,7 @@ export const Faq = () => {
           </div>
         )}
       </div>
-      <div className="mt-10 w-full border border-solid bg-zinc-500 border-zinc-500 min-h-[1px] max-md:max-w-full" />
+      <div className="mt-10 w-full border border-solid bg-zinc-500 border-zinc-500 min-h-[0.063rem] max-md:max-w-full" />
       <div className="flex flex-col gap-5 px-5 max-md:px-0 mt-10 w-full max-md:flex-wrap max-md:max-w-full cursor-pointer">
         <div
           className="flex max-md:flex-wrap items-center max-md:max-w-full"
@@ -130,7 +130,7 @@ export const Faq = () => {
           </div>
         )}
       </div>
-      <div className="mt-10 w-full border border-solid bg-zinc-500 border-zinc-500 min-h-[1px] max-md:max-w-full" />
+      <div className="mt-10 w-full border border-solid bg-zinc-500 border-zinc-500 min-h-[0.063rem] max-md:max-w-full" />
       <div className="flex flex-col gap-5 px-5 max-md:px-0 mt-10 w-full max-md:flex-wrap max-md:max-w-full cursor-pointer">
       <div
           className="flex max-md:flex-wrap items-center max-md:max-w-full"
@@ -149,7 +149,7 @@ export const Faq = () => {
           NutriFit can provide audio transcriptions for fitness videos. This feature allows you to read the instructions and guidance provided in the video, making it easier to follow along with the workout even if you're in a noisy environment or prefer to read the instructions instead of listening to them.
         </div>
       )}
-      <div className="mt-9 w-full border border-solid bg-zinc-500 border-zinc-500 min-h-[1px] max-md:max-w-full" />
+      <div className="mt-9 w-full border border-solid bg-zinc-500 border-zinc-500 min-h-[0.063rem] max-md:max-w-full" />
     </div>
   );
 };

@@ -12,10 +12,10 @@ export const Clients = () => {
           src="https://cdn.builder.io/api/v1/image/assets/TEMP/6d794d376b2c0a4870f4d2743cb1d2bbe64a203d46d87b174efa92b3d6233bd0?"
           className="mx-auto w-20 h-20 fill-red-500"
         />
-        <h2 className="mt-4 text-4xl font-bold text-teal-800 leading-[54px]">
+        <h2 className="mt-4 text-4xl font-bold text-teal-800 leading-[3.375rem]">
           What Our Clients Say
         </h2>
-        <p className="mt-4 text-lg leading-7 mx-auto max-w-[667px] text-zinc-500">
+        <p className="mt-4 text-lg leading-7 mx-auto max-w-[41.688rem] text-zinc-500">
           Discover the experiences of our satisfied clients as they share
           stories of success, collaboration, and the transformative impact of
           choosing NutriFit.
@@ -27,7 +27,7 @@ export const Clients = () => {
             <img
               loading="lazy"
               src={img9}
-              className="w-[60px] h-[60px] rounded-full"
+              className="w-[3.75rem] h-[3.75rem] rounded-full"
               alt="John Anderson"
             />
             <div>
@@ -54,7 +54,7 @@ export const Clients = () => {
             <img
               loading="lazy"
               src={img10}
-              className="w-[60px] h-[60px] rounded-full"
+              className="w-[3.75rem] h-[3.75rem] rounded-full"
               alt="Sarah Johnson"
             />
             <div>
@@ -81,7 +81,7 @@ export const Clients = () => {
             <img
               loading="lazy"
               src={img11}
-              className="w-[60px] h-[60px] rounded-full"
+              className="w-[3.75rem] h-[3.75rem] rounded-full"
               alt="Emily Turner"
             />
             <div>
