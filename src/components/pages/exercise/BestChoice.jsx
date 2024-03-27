@@ -5,7 +5,7 @@ import img3 from "../../../assets/images/exercise/img3.svg";
 export const BestChoice = () => {
     return (
       <div className="flex flex-col items-center px-5 mt-40">
-        <div className="text-5xl font-bold text-teal-800 leading-[54px] max-md:max-w-full max-md:text-4xl">
+        <div className="text-5xl text-center font-bold text-teal-800 leading-[3.375rem] max-md:max-w-full max-md:text-4xl">
           Make the Best Choice For You
         </div>
         <div className="mt-8 text-lg text-center text-neutral-700 max-md:max-w-full">

@@ -2,17 +2,15 @@ import coverImg from "../../../assets/images/exercise/coverImg.svg";
 
 export const Cover = () => {
   return (
-    <div className="flex overflow-hidden relative flex-col justify-center items-center px-16 py-20 text-lg font-bold text-white min-h-[639px] max-md:px-5">
+    <div className="flex overflow-hidden relative flex-col justify-center items-center px-16 py-20 text-lg font-bold text-white min-h-[39.938rem] max-md:px-5">
       <img
         loading="lazy"
         srcSet={coverImg}
         className="object-cover absolute inset-0 size-full"
       />
-      <div className="flex relative flex-col items-center mt-20 max-w-full w-[534px] max-md:mt-10">
-        <div className="self-stretch text-5xl text-center leading-[60px] max-md:max-w-full max-md:text-4xl max-md:leading-[59px]">
-          Give Shape To Your Body
-          <br />
-          With Workouts At NutriFit.
+      <div className="flex relative flex-col items-center mt-20 max-w-full w-[33.375rem] max-md:mt-10">
+        <div className="self-stretch text-5xl text-center leading-[60px] max-md:max-w-full max-md:text-4xl max-md:leading-[3.688rem]">
+          Give Shape To Your Body With Workouts At NutriFit.
         </div>
         <div className="mt-9 text-center max-md:max-w-full">
           With our numerous exercises here at NutriFit, we have got your body

@@ -8,7 +8,7 @@ import img9 from "../../../assets/images/exercise/img9.svg";
 export const Fitness = () => {
     return (
       <div className="flex flex-col px-5 mt-20 py-20 bg-red-50 shadow-md">
-        <div className="self-center text-5xl font-bold text-teal-800 leading-[54px] max-md:max-w-full max-md:text-4xl">
+        <div className="self-center text-5xl font-bold text-teal-800 leading-[3.375rem] max-md:max-w-full max-md:text-4xl">
           Fitness Classes For Every Goal
         </div>
         <div className="mt-12 w-full max-md:mt-10 max-md:max-w-full">

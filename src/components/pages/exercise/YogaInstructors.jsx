@@ -5,7 +5,7 @@ import img21 from "../../../assets/images/exercise/img21.svg";
 export const YogaInstructors = () => {
   return (
     <div className="flex flex-col items-center px-5 mt-20">
-      <div className="text-5xl font-bold leading-[54px] text-neutral-700 max-md:max-w-full max-md:text-4xl">
+      <div className="text-5xl text-center font-bold leading-[54px] text-neutral-700 max-md:max-w-full max-md:text-4xl">
         Meet your Yoga Instructors
       </div>
       <div className="mt-6 text-lg text-center text-neutral-700 max-md:max-w-full">
@@ -20,8 +20,8 @@ export const YogaInstructors = () => {
               srcSet={img19}
               className="grow w-full aspect-[0.87] max-md:mt-5"
             />
-            <div className="flex flex-col items-center relative bottom-[5rem] left-[4rem] max-md:left-[2rem] w-[20rem] py-6 text-white bg-amber-700 rounded-md">
-              <div className="text-3xl font-bold tracking-wider">
+            <div className="flex flex-col items-center relative bottom-[5rem] left-[4rem] max-md:left-[2rem] w-[20rem] max-md:w-[15rem] py-6 text-white bg-amber-700 rounded-md">
+              <div className="text-3xl font-bold tracking-wider sm:text-2xl">
                 Ashana Drey
               </div>
               <div className="self-center mt-3.5 text-base">
@@ -35,8 +35,8 @@ export const YogaInstructors = () => {
               srcSet={img20}
               className="grow w-full aspect-[0.87] max-md:mt-5"
             />
-            <div className="flex flex-col items-center relative bottom-[5rem] left-[4rem] max-md:left-[2rem] w-[20rem] py-6 text-white bg-amber-700 rounded-md">
-              <div className="text-3xl font-bold tracking-wider">Luca Deon</div>
+            <div className="flex flex-col items-center relative bottom-[5rem] left-[4rem] max-md:left-[2rem] w-[20rem] max-md:w-[15rem] py-6 text-white bg-amber-700 rounded-md">
+              <div className="text-3xl font-bold tracking-wider sm:text-2xl">Luca Deon</div>
               <div className="self-center mt-3.5 text-base">
                 Yoga Instructor
               </div>
@@ -48,8 +48,8 @@ export const YogaInstructors = () => {
               srcSet={img21}
               className="grow w-full aspect-[0.87] max-md:mt-5"
             />
-            <div className="flex flex-col items-center relative bottom-[5rem] left-[4rem] max-md:left-[2rem] w-[20rem] py-6 text-white bg-amber-700 rounded-md">
-              <div className="text-3xl font-bold tracking-wider">
+            <div className="flex flex-col items-center relative bottom-[5rem] left-[4rem] max-md:left-[2rem] w-[20rem] max-md:w-[15rem] py-6 text-white bg-amber-700 rounded-md">
+              <div className="text-3xl font-bold tracking-wider sm:text-2xl">
                 Clarissa Lum
               </div>
               <div className="self-center mt-3.5 text-base">

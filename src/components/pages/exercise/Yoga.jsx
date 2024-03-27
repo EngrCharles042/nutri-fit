@@ -27,9 +27,7 @@ export const Yoga = () => {
               <div className="text-2xl text-teal-800">Child’s Pose</div>
               <div className="mt-5">
                 Child’s Pose or Balasana is one of the most relaxing asanas in
-                sitting position. It <br />
-                provides a nice stretch for the back, hips
-                <br />
+                sitting position. It provides a nice stretch for the back, hips
                 and shoulders.
               </div>
               <div className="flex gap-5 px-0.5 mt-12">
@@ -51,10 +49,8 @@ export const Yoga = () => {
             <div className="flex flex-col py-7 pr-2.5 pl-5 w-full rounded-b-lg border border-amber-700 border-solid">
               <div className="text-2xl text-teal-800">Cat-Cow Pose</div>
               <div className="self-start mt-5">
-                The Cat-Cow pose is an excellent sitting
-                <br />
-                pose yoga to release tension iht spine and warm up the body for
-                deeper yoga <br />
+                The Cat-Cow pose is an excellent sitting pose yoga to release
+                tension iht spine and warm up the body for deeper yoga
                 practices.
               </div>
               <div className="flex gap-5 mt-10">
@@ -76,13 +72,9 @@ export const Yoga = () => {
             <div className="flex flex-col px-4 py-7 w-full rounded-b-lg border border-amber-700 border-solid">
               <div className="text-2xl text-teal-800">Cobra Pose</div>
               <div className="self-start mt-5">
-                The Cobra pose is a back bending sitting
-                <br />
-                asana posture. It opens the chest and
-                <br />
-                strengthens the spine making it easy to
-                <br />
-                unwind the back’s tight coils.
+                The Cobra pose is a back bending sitting asana posture. It opens
+                the chest and strengthens the spine making it easy to unwind the
+                back’s tight coils.
               </div>
               <div className="flex gap-5 px-px mt-10">
                 <div className="flex-auto">Play Audio for: How to Pose</div>
@@ -107,12 +99,9 @@ export const Yoga = () => {
             <div className="flex flex-col px-4 py-7 w-full rounded-b-lg border border-amber-700 border-solid">
               <div className="text-2xl text-teal-800">Downward facing Dog</div>
               <div className="self-start mt-3">
-                If you are feeling a little sluggish or very
-                <br />
-                stressed, this pose gives a nice stretch to
-                <br />
-                the entire backside of the body and <br />
-                relaxes you within minutes.
+                If you are feeling a little sluggish or very stressed, this pose
+                gives a nice stretch to the entckside of the body and relaxes
+                you within minutes.
               </div>
               <div className="flex gap-5 px-px mt-10">
                 <div className="flex-auto">Play Audio for: How to Pose</div>
@@ -133,11 +122,8 @@ export const Yoga = () => {
             <div className="flex flex-col px-4 py-7 w-full rounded-b-lg border border-amber-700 border-solid">
               <div className="text-2xl text-teal-800">Bridge Pose</div>
               <div className="self-start mt-3">
-                This is a sitting yoga position. It offers lots
-                <br />
-                of numerous benefits for the body and
-                <br />
-                mind.
+                This is a sitting yoga position. It offers lots of numerous
+                benefits for the body and mind.
               </div>
               <div className="flex gap-5 mt-20">
                 <div className="flex-auto">Play Audio for: How to Pose</div>
@@ -158,10 +144,8 @@ export const Yoga = () => {
             <div className="flex flex-col px-4 py-7 w-full rounded-b-lg border border-amber-700 border-solid">
               <div className="text-2xl text-teal-800">Pigeon Pose</div>
               <div className="self-start mt-3">
-                Are your hips feeling tight, like they need <br />
-                to unfold their wings? Then let’s glide into
-                <br />
-                pigeon pose.
+                Are your hips feeling tight, like they need to unfold their
+                wings? Then let’s glide into pigeon pose.
               </div>
               <div className="flex gap-5 px-px mt-16">
                 <div className="flex-auto">Play Audio for: How to Pose</div>
