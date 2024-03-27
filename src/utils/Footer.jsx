@@ -2,6 +2,21 @@ export const Footer = () => {
   return (
     <div className="flex flex-col items-center pt-20 pb-8 bg-teal-800">
       <div className="flex gap-5 justify-between items-start px-5 w-full max-w-[1241px] max-md:flex-wrap max-md:max-w-full">
+        <div className="flex flex-col self-end hidden max-w-full w-[463px] max-md:mb-5 max-md:block">
+          <div className="self-start ml-7 text-3xl text-white max-md:ml-2.5">
+            Newsletter Subscription
+          </div>
+          <div className="mt-4 text-lg text-white max-md:mr-2.5 max-md:max-w-full">
+            To get more tips on eating healthy and staying fit, subscribe to our newsletter.
+          </div>
+          <div className="flex gap-5 justify-center py-2 pr-2 pl-8 mt-6 text-2xl border border-white border-solid rounded-[50px] max-md:pl-5 max-md:max-w-full">
+            <div className="flex-auto my-auto text-white">Enter your email</div>
+            <div className="justify-center px-5 py-5 whitespace-nowrap bg-white rounded-[50px] text-neutral-700 max-md:px-5">
+              Subscribe
+            </div>
+          </div>
+        </div>
+        <div className="hidden max-md:block max-md:self-stretch max-md:w-full bg-white border border-white border-solid max-md:min-h-[1px] max-md:max-w-full" />
         <div className="flex flex-col text-xl text-white">
           <div className="text-3xl font-bold">Our Services</div>
           <div className="mt-7">Personalized Meal plans</div>
@@ -37,7 +52,7 @@ export const Footer = () => {
               </div>
             </div>
           </div>
-          <div className="flex flex-col self-end px-px mt-16 max-w-full w-[463px] max-md:mt-10">
+          <div className="flex flex-col self-end px-px mt-16 max-w-full w-[463px] max-md:mt-10 max-md:hidden">
             <div className="self-start ml-7 text-3xl text-white max-md:ml-2.5">
               Newsletter Subscription
             </div>
