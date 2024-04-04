@@ -18,7 +18,7 @@ export const Cover = () => {
             Tailored meal plans designed to meet your individual needs for optimal
             health and proper dieting
           </div>
-          <div className="justify-center self-center px-8 py-5 mt-6 bg-amber-700 rounded-xl max-md:px-5">
+          <div className="justify-center self-center px-8 py-5 mt-6 bg-amber-700 cursor-pointer hover:bg-green-600 rounded-xl max-md:px-5">
             Get Started Now
           </div>
         </div>
