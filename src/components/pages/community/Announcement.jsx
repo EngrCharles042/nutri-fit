@@ -2,15 +2,15 @@ import arrow from "../../../assets/images/community/arrow.svg";
 
 export const Announcement = () => {
   return (
-    <div className="flex flex-col items-center px-20 py-16 bg-rose-100 max-md:px-5">
+    <div className="flex flex-col  px-20 py-16 bg-rose-100 max-md:px-5">
       <div className="mt-4 text-5xl font-bold text-teal-800 max-md:max-w-full max-md:text-4xl">
         Announcement
       </div>
       <div className="mt-20 w-full max-w-[1227px] max-md:mt-10 max-md:max-w-full">
-        <div className="flex gap-5 max-md:flex-col max-md:gap-0">
+        <div className="flex gap-5 max-md:flex-col-reverse max-md:gap-0">
           <div className="flex flex-col w-[33%] max-md:ml-0 max-md:w-full">
-            <div className="flex flex-col grow pb-3.5 w-full bg-teal-800 rounded-2xl max-md:mt-5">
-              <div className="z-10 shrink-0 mt-0 bg-amber-700 rounded-2xl h-[315px]" />
+            <div className="flex flex-col pb-3.5 w-full bg-teal-800 rounded-2xl max-md:mt-5">
+              <div className="relative right-[1rem] bottom-[.5rem] z-10 shrink-0 mt-0 bg-amber-700 rounded-2xl h-[315px]" />
             </div>
           </div>
           <div className="flex flex-col ml-5 w-[67%] max-md:ml-0 max-md:w-full">
