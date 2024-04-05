@@ -1,6 +1,6 @@
 export const Forums = () => {
     return (
-      <div className="flex flex-col px-5 mt-20">
+      <div className="flex flex-col px-5 py-40 bg-white">
         <div className="self-center text-5xl font-bold text-teal-800 max-md:max-w-full max-md:text-4xl">
           NutriFit Community Forums
         </div>

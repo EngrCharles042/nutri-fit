@@ -1,4 +1,6 @@
 import coverImg from "../../../assets/images/allergyFriendly/coverImg.svg";
+import coverImgMobile from "../../../assets/images/allergyFriendly/coverMobile.svg";
+
 
 export const Cover = () => {
     return (
@@ -6,7 +8,12 @@ export const Cover = () => {
         <img
           loading="lazy"
           srcSet={coverImg}
-          className="object-cover absolute inset-0 size-full"
+          className="object-cover absolute inset-0 size-full max-md:hidden"
+        />
+        <img
+          loading="lazy"
+          srcSet={coverImgMobile}
+          className="object-cover absolute inset-0 size-full hidden max-md:block"
         />
         <div className="flex relative flex-col items-center mt-52 max-w-full w-[556px] max-md:mt-10">
           <div className="self-stretch text-5xl text-center max-md:max-w-full max-md:text-4xl">

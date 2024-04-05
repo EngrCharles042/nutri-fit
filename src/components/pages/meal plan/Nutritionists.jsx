@@ -5,7 +5,7 @@ import img12 from "../../../assets/images/mealPlan/img12.svg";
 export const Nutritionists = () => {
   return (
     <div className="flex flex-col items-center px-5 mt-20">
-      <div className="text-5xl font-bold text-teal-800 leading-[54px] max-md:max-w-full max-md:text-4xl">
+      <div className="text-5xl text-center font-bold text-teal-800 leading-[54px] max-md:max-w-full max-md:text-4xl">
         Meet your Nutritionists
       </div>
       <div className="self-stretch mt-8 w-full max-md:max-w-full">

@@ -2,7 +2,7 @@ import arrow from "../../../assets/images/community/arrow.svg";
 
 export const Announcement = () => {
   return (
-    <div className="flex flex-col items-center px-20 py-16 bg-rose-100 mt-40 max-md:px-5">
+    <div className="flex flex-col items-center px-20 py-16 bg-rose-100 max-md:px-5">
       <div className="mt-4 text-5xl font-bold text-teal-800 max-md:max-w-full max-md:text-4xl">
         Announcement
       </div>

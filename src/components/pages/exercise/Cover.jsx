@@ -1,4 +1,6 @@
 import coverImg from "../../../assets/images/exercise/coverImg.svg";
+import coverImgMobile from "../../../assets/images/exercise/coverMobile.svg";
+
 
 export const Cover = () => {
   return (
@@ -6,7 +8,12 @@ export const Cover = () => {
       <img
         loading="lazy"
         srcSet={coverImg}
-        className="object-cover absolute inset-0 size-full"
+        className="object-cover absolute inset-0 size-full max-md:hidden"
+      />
+      <img
+        loading="lazy"
+        srcSet={coverImgMobile}
+        className="object-cover absolute inset-0 size-full hidden max-md:block"
       />
       <div className="flex relative flex-col items-center mt-20 max-w-full w-[33.375rem] max-md:mt-10">
         <div className="self-stretch text-5xl text-center leading-[60px] max-md:max-w-full max-md:text-4xl max-md:leading-[3.688rem]">
