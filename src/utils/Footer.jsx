@@ -19,18 +19,18 @@ export const Footer = () => {
         <div className="hidden max-md:block max-md:self-stretch max-md:w-full bg-white border border-white border-solid max-md:min-h-[1px] max-md:max-w-full" />
         <div className="flex flex-col text-xl text-white">
           <div className="text-3xl font-bold">Our Services</div>
-          <div className="mt-7">Personalized Meal plans</div>
-          <div className="mt-6">Fitness Classes</div>
-          <div className="mt-7">Online Yoga Classes</div>
-          <div className="mt-6">Allergy-free Recipes</div>
-          <div className="mt-6">Goal Tracking</div>
+          <div className="mt-7 cursor-pointer">Personalized Meal plans</div>
+          <div className="mt-6 cursor-pointer">Fitness Classes</div>
+          <div className="mt-7 cursor-pointer">Online Yoga Classes</div>
+          <div className="mt-6 cursor-pointer">Allergy-free Recipes</div>
+          <div className="mt-6 cursor-pointer">Goal Tracking</div>
         </div>
         <div className="flex flex-col text-xl text-white">
           <div className="text-3xl font-bold">Quick Links</div>
-          <div className="mt-6">About Us</div>
-          <div className="mt-7">Workouts</div>
-          <div className="mt-7">Recipes</div>
-          <div className="mt-6">FAQs</div>
+          <div className="mt-6 cursor-pointer">About Us</div>
+          <div className="mt-7 cursor-pointer">Workouts</div>
+          <div className="mt-7 cursor-pointer">Recipes</div>
+          <div className="mt-6 cursor-pointer">FAQs</div>
         </div>
         <div className="flex flex-col self-stretch font-bold max-md:max-w-full">
           <div className="text-3xl text-white max-md:max-w-full">
@@ -43,9 +43,9 @@ export const Footer = () => {
               className="shrink-0 w-6 aspect-[0.18]"
             />
             <div className="flex flex-col mt-1.5">
-              <div>+12 345 6789</div>
-              <div className="mt-11 max-md:mt-10">Team.nutrifit@gmail.com</div>
-              <div className="mt-10">
+              <div className="cursor-pointer">+12 345 6789</div>
+              <div className="mt-11 max-md:mt-10 cursor-pointer">Team.nutrifit@gmail.com</div>
+              <div className="mt-10 cursor-pointer">
                 #23 city road, Junaid Tower
                 <br />
                 Mall road, city 102867.
@@ -83,11 +83,11 @@ export const Footer = () => {
           <div className="flex-auto">2024 NutriFit All Rights Reserved.</div>
         </div>
         <div className="flex gap-3.5 px-5 max-md:flex-wrap">
-          <div className="grow my-auto">Terms & Conditions</div>
+          <div className="grow my-auto cursor-pointer">Terms & Conditions</div>
           <div className="shrink-0 w-px bg-white border border-white border-solid h-[30px]" />
-          <div className="flex-auto">Privacy Policy</div>
+          <div className="flex-auto cursor-pointer">Privacy Policy</div>
           <div className="shrink-0 w-px bg-white border border-white border-solid h-[30px]" />
-          <div className="my-auto">Disclamer</div>
+          <div className="my-auto cursor-pointer">Disclamer</div>
         </div>
       </div>
     </div>

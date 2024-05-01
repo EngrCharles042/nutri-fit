@@ -22,7 +22,7 @@ export const YogaInstructors = () => {
             />
             <div className="flex flex-col items-center relative bottom-[5rem] mx-10 py-6 text-white text-center bg-amber-700 cursor-pointer hover:bg-green-600 rounded-md">
               <div className="text-3xl font-bold tracking-wider sm:text-2xl">
-                Ashana Drey
+                Jessica Okuku
               </div>
               <div className="self-center mt-3.5 text-base">
                 Yoga Instructor
@@ -37,7 +37,7 @@ export const YogaInstructors = () => {
             />
             <div className="flex flex-col items-center relative bottom-[5rem] mx-10 py-6 text-white text-center bg-amber-700 cursor-pointer hover:bg-green-600 rounded-md">
               <div className="text-3xl font-bold tracking-wider sm:text-2xl">
-                Luca Deon
+                Ayo Oluwole
               </div>
               <div className="self-center mt-3.5 text-base">
                 Yoga Instructor
@@ -52,7 +52,7 @@ export const YogaInstructors = () => {
             />
             <div className="flex flex-col items-center relative bottom-[5rem] mx-10 py-6 text-white text-center bg-amber-700 cursor-pointer hover:bg-green-600 rounded-md">
               <div className="text-3xl font-bold tracking-wider sm:text-2xl">
-                Clarissa Lum
+                Sharon Ephraim
               </div>
               <div className="self-center mt-3.5 max-md:mt-1.5 text-base">
                 Yoga Instructor

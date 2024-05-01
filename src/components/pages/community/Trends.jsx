@@ -19,14 +19,14 @@ export const Trends = () => {
       </div>
       <div className="flex gap-5 items-start self-start px-5 mt-10 whitespace-nowrap text-neutral-700 max-md:flex-wrap max-md:mt-10">
         <div
-          className={`flex flex-col flex-auto mt-3 relative ${
+          className={`flex flex-col flex-auto mt-3 relative cursor-pointer ${
             selectedTab === "recent" ? "border-t-2 border-teal-800 text-teal-800 font-bold" : ""
           }`}
           onClick={() => setSelectedTab("recent")}
         >
           Recent
         </div>
-        <div
+        {/* <div
           className={`flex-auto mt-3 relative ${
             selectedTab === "unanswered" ? "border-t-2 border-teal-800 text-teal-800 font-bold" : ""
           }`}
@@ -49,7 +49,7 @@ export const Trends = () => {
           onClick={() => setSelectedTab("solved")}
         >
           Solved
-        </div>
+        </div> */}
       </div>
       <div className="flex flex-col px-6 py-6 mt-16 w-full border border-red-500 border-solid max-md:px-5 max-md:mt-10 max-md:max-w-full">
         <div className="flex gap-5 items-start font-bold text-neutral-700 max-md:flex-wrap">
@@ -75,7 +75,7 @@ export const Trends = () => {
         <div className="flex gap-5 justify-between self-center mt-8 w-full text-teal-800 max-w-[1021px] max-md:flex-wrap max-md:max-w-full">
           <div className="flex gap-5 justify-between">
             <div className="justify-center p-2.5 bg-emerald-100 rounded-md">
-              By Mary Slessor
+              By Ella Wilz
             </div>
             <div className="flex gap-3 my-auto">
               <img
@@ -140,7 +140,7 @@ export const Trends = () => {
         <div className="flex gap-5 justify-between self-center mt-8 w-full text-teal-800 max-w-[1021px] max-md:flex-wrap max-md:max-w-full">
           <div className="flex gap-5 justify-between">
             <div className="justify-center p-2.5 bg-emerald-100 rounded-md">
-              By Mary Slessor
+              By Omotoyosi Atunrase
             </div>
             <div className="flex gap-3 my-auto">
               <img
@@ -148,7 +148,7 @@ export const Trends = () => {
                 src="https://cdn.builder.io/api/v1/image/assets/TEMP/37a0a49231169cc1f777306dd954a828cc5a0dda10ba3a94541675e68e8ec5f7?"
                 className="shrink-0 w-5 aspect-square fill-teal-800"
               />
-              <div className="flex-auto">Feb 21, 2024</div>
+              <div className="flex-auto">Mar 05, 2024</div>
             </div>
           </div>
           <div className="flex gap-4 self-end mt-6 whitespace-nowrap">
@@ -205,7 +205,7 @@ export const Trends = () => {
         <div className="flex gap-5 justify-between self-center mt-8 w-full text-teal-800 max-w-[1021px] max-md:flex-wrap max-md:max-w-full">
           <div className="flex gap-5 justify-between">
             <div className="justify-center p-2.5 bg-emerald-100 rounded-md">
-              By Mary Slessor
+              By Jay Funese
             </div>
             <div className="flex gap-3 my-auto">
               <img
@@ -213,7 +213,7 @@ export const Trends = () => {
                 src="https://cdn.builder.io/api/v1/image/assets/TEMP/37a0a49231169cc1f777306dd954a828cc5a0dda10ba3a94541675e68e8ec5f7?"
                 className="shrink-0 w-5 aspect-square fill-teal-800"
               />
-              <div className="flex-auto">Feb 21, 2024</div>
+              <div className="flex-auto">Mar 17, 2024</div>
             </div>
           </div>
           <div className="flex gap-4 self-start mt-5 whitespace-nowrap">
@@ -270,7 +270,7 @@ export const Trends = () => {
         <div className="flex gap-5 justify-between self-center mt-8 w-full text-teal-800 max-w-[1021px] max-md:flex-wrap max-md:max-w-full">
           <div className="flex gap-5 justify-between">
             <div className="justify-center p-2.5 bg-emerald-100 rounded-md">
-              By Mary Slessor
+              By Mariam Agboola
             </div>
             <div className="flex gap-3 my-auto">
               <img
@@ -278,7 +278,7 @@ export const Trends = () => {
                 src="https://cdn.builder.io/api/v1/image/assets/TEMP/37a0a49231169cc1f777306dd954a828cc5a0dda10ba3a94541675e68e8ec5f7?"
                 className="shrink-0 w-5 aspect-square fill-teal-800"
               />
-              <div className="flex-auto">Feb 21, 2024</div>
+              <div className="flex-auto">Apr 01, 2024</div>
             </div>
           </div>
           <div className="flex gap-4 self-start mt-5 whitespace-nowrap">
