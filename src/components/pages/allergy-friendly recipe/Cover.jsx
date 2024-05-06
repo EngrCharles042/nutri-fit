@@ -20,7 +20,7 @@ export const Cover = () => {
             For Allergy-friendly Recipes, We Have Got You Covered
           </div>
           <div className="mt-4 text-center max-md:max-w-full">
-            FOr Allergies, we understand people can be allergic to some recipes.
+            For Allergies, we understand people can be allergic to some recipes.
             Here at NutriFit, we have something for you
           </div>
           <div className="justify-center px-8 py-5 mt-2 bg-amber-700 cursor-pointer hover:bg-green-600 rounded-xl max-md:px-5">

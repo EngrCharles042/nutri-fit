@@ -42,10 +42,10 @@ export const Footer = () => {
               src="https://cdn.builder.io/api/v1/image/assets/TEMP/44f5938fb94a538c425dbf8fc24a0803462702e7d52b7cd448236bf8553c1a00?"
               className="shrink-0 w-6 aspect-[0.18]"
             />
-            <div className="flex flex-col mt-1.5">
+            <div className="flex flex-col">
               <div className="cursor-pointer">+12 345 6789</div>
-              <div className="mt-11 max-md:mt-10 cursor-pointer">Team.nutrifit@gmail.com</div>
-              <div className="mt-10 cursor-pointer">
+              <div className="mt-7 max-md:mt-7 cursor-pointer">Team.nutrifit@gmail.com</div>
+              <div className="mt-6 cursor-pointer">
                 #23 city road, Junaid Tower
                 <br />
                 Mall road, city 102867.

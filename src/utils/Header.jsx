@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { MobileMenu } from "./menu";
 import { Link } from "react-router-dom";
+// import img7 from "../assets/nutri.png";
 
 export const Header = () => {
   const [showMenu, setShowMenu] = useState(false);
@@ -29,17 +30,18 @@ export const Header = () => {
         <div className="flex justify-between gap-5 w-full max-w-[1239px] max-md:flex-wrap max-md:max-w-full">
           <Link
             to="/"
-            className="flex my-auto text-4xl font-bold text-neutral-700 cursor-pointer"
+            className="flex my-auto text-4xl font-bold text-neutral-700 cursor-pointer" style={{ fontFamily: 'cursive' }}
           >
-            LOGO
+            <span className="text-orange-500">Nutri</span>
+            <span className="text-green-600">Fit</span>
           </Link>
           <div className="flex gap-10 items-center text-lg font-medium text-zinc-800 max-md:flex-wrap max-md:max-w-full max-md:hidden">
+          <Link to="/meal-plan" className="hover:text-white hover:bg-amber-700 focus:text-amber-700 rounded-xl px-3 py-5 self-stretch my-auto cursor-pointer">Meal Plans</Link>
+          <Link to="/allergy-friendly-recipe" className="hover:text-white hover:bg-amber-700 focus:text-amber-700 rounded-xl px-3 py-5 self-stretch my-auto cursor-pointer">
+              Allergy-friendly Recipes
+            </Link>
             <Link to="/exercise" className="hover:text-white hover:bg-amber-700 focus:text-amber-700 rounded-xl px-3 py-5 self-stretch my-auto cursor-pointer">
               Exercises{" "}
-            </Link>
-            <Link to="/meal-plan" className="hover:text-white hover:bg-amber-700 focus:text-amber-700 rounded-xl px-3 py-5 self-stretch my-auto cursor-pointer">Meal Plans</Link>
-            <Link to="/allergy-friendly-recipe" className="hover:text-white hover:bg-amber-700 focus:text-amber-700 rounded-xl px-3 py-5 self-stretch my-auto cursor-pointer">
-              Allergy-friendly Recipes
             </Link>
             <Link to="/community" className="hover:text-white hover:bg-amber-700 focus:text-amber-700 rounded-xl px-3 py-5 self-stretch my-auto cursor-pointer">Community</Link>
             <div className="justify-center self-stretch px-3 py-5 hover:text-white hover:bg-amber-700 rounded-xl cursor-pointer max-md:px-5">

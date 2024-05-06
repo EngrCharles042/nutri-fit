@@ -26,15 +26,15 @@ export const Trends = () => {
         >
           Recent
         </div>
-        {/* <div
-          className={`flex-auto mt-3 relative ${
-            selectedTab === "unanswered" ? "border-t-2 border-teal-800 text-teal-800 font-bold" : ""
-          }`}
-          onClick={() => setSelectedTab("unanswered")}
-        >
-          Unanswered
-        </div>
         <div
+          className={`flex-auto mt-3 relative cursor-pointer ${
+            selectedTab === "top" ? "border-t-2 border-teal-800 text-teal-800 font-bold" : ""
+          }`}
+          onClick={() => setSelectedTab("top")}
+        >
+          Top
+        </div>
+        {/* <div
           className={`flex-auto mt-3 relative ${
             selectedTab === "answered" ? "border-t-2 border-teal-800 text-teal-800 font-bold" : ""
           }`}
@@ -75,7 +75,7 @@ export const Trends = () => {
         <div className="flex gap-5 justify-between self-center mt-8 w-full text-teal-800 max-w-[1021px] max-md:flex-wrap max-md:max-w-full">
           <div className="flex gap-5 justify-between">
             <div className="justify-center p-2.5 bg-emerald-100 rounded-md">
-              By Ella Wilz
+              By Grace Estella
             </div>
             <div className="flex gap-3 my-auto">
               <img
@@ -158,7 +158,7 @@ export const Trends = () => {
                 src="https://cdn.builder.io/api/v1/image/assets/TEMP/c63ad5e5e2e9dff6d4f9dec3ec0cd9c7afcefe787a0314e8f77ec0a886bf81ba?"
                 className="shrink-0 aspect-[1.39] w-[25px]"
               />
-              <div>150</div>
+              <div>69</div>
             </div>
             <div className="shrink-0 my-auto w-px border border-solid bg-zinc-500 bg-opacity-50 border-zinc-500 border-opacity-50 h-[21px]" />
             <div className="flex gap-2">
@@ -167,7 +167,7 @@ export const Trends = () => {
                 src="https://cdn.builder.io/api/v1/image/assets/TEMP/ca6d684cd969388af95eaaaf0340250004d3c3a919f5e90c984e67ae598a08a7?"
                 className="shrink-0 border-2 border-teal-800 border-solid aspect-[1.04] stroke-[2px] stroke-teal-800 w-[27px]"
               />
-              <div className="my-auto">100</div>
+              <div className="my-auto">23</div>
             </div>
             <div className="flex gap-2 self-start">
               <div className="shrink-0 w-px h-6 border border-solid bg-zinc-500 bg-opacity-50 border-zinc-500 border-opacity-50" />
@@ -176,7 +176,7 @@ export const Trends = () => {
                 src="https://cdn.builder.io/api/v1/image/assets/TEMP/aed5b985da7e452a2a5f0834d42f88d878b008c24616a7bee26bc8279bf64ccb?"
                 className="shrink-0 aspect-[1.04] w-[25px]"
               />
-              <div className="my-auto">50</div>
+              <div className="my-auto">32</div>
             </div>
           </div>
         </div>
@@ -223,7 +223,7 @@ export const Trends = () => {
                 src="https://cdn.builder.io/api/v1/image/assets/TEMP/c63ad5e5e2e9dff6d4f9dec3ec0cd9c7afcefe787a0314e8f77ec0a886bf81ba?"
                 className="shrink-0 aspect-[1.39] w-[25px]"
               />
-              <div>150</div>
+              <div>185</div>
             </div>
             <div className="shrink-0 my-auto w-px bg-teal-800 border border-teal-800 border-solid h-[21px]" />
             <div className="flex gap-2">
@@ -232,7 +232,7 @@ export const Trends = () => {
                 src="https://cdn.builder.io/api/v1/image/assets/TEMP/ca6d684cd969388af95eaaaf0340250004d3c3a919f5e90c984e67ae598a08a7?"
                 className="shrink-0 border-2 border-teal-800 border-solid aspect-[1.04] stroke-[2px] stroke-teal-800 w-[27px]"
               />
-              <div className="my-auto">100</div>
+              <div className="my-auto">85</div>
             </div>
             <div className="flex gap-2 self-start">
               <div className="shrink-0 w-px h-6 bg-teal-800 border border-teal-800 border-solid" />
@@ -241,7 +241,7 @@ export const Trends = () => {
                 src="https://cdn.builder.io/api/v1/image/assets/TEMP/0728ba4ba18d9101679825c2577965f1c71328a297351765acb1732b7d4a4f5e?"
                 className="shrink-0 aspect-[1.04] w-[25px]"
               />
-              <div className="my-auto">50</div>
+              <div className="my-auto">90</div>
             </div>
           </div>
         </div>
@@ -288,7 +288,7 @@ export const Trends = () => {
                 src="https://cdn.builder.io/api/v1/image/assets/TEMP/c63ad5e5e2e9dff6d4f9dec3ec0cd9c7afcefe787a0314e8f77ec0a886bf81ba?"
                 className="shrink-0 aspect-[1.39] w-[25px]"
               />
-              <div>150</div>
+              <div>134</div>
             </div>
             <div className="shrink-0 my-auto w-px bg-teal-800 border border-teal-800 border-solid h-[21px]" />
             <div className="flex gap-2">
@@ -297,7 +297,7 @@ export const Trends = () => {
                 src="https://cdn.builder.io/api/v1/image/assets/TEMP/ca6d684cd969388af95eaaaf0340250004d3c3a919f5e90c984e67ae598a08a7?"
                 className="shrink-0 border-2 border-teal-800 border-solid aspect-[1.04] stroke-[2px] stroke-teal-800 w-[27px]"
               />
-              <div className="my-auto">100</div>
+              <div className="my-auto">21</div>
             </div>
             <div className="flex gap-2 self-start">
               <div className="shrink-0 w-px h-6 bg-teal-800 border border-teal-800 border-solid" />
@@ -306,7 +306,7 @@ export const Trends = () => {
                 src="https://cdn.builder.io/api/v1/image/assets/TEMP/0728ba4ba18d9101679825c2577965f1c71328a297351765acb1732b7d4a4f5e?"
                 className="shrink-0 aspect-[1.04] w-[25px]"
               />
-              <div className="my-auto">50</div>
+              <div className="my-auto">60</div>
             </div>
           </div>
         </div>

@@ -30,9 +30,9 @@ export const HealthyMeals = () => {
         </div>
       </div>
       <div className="flex justify-between gap-5 mt-24 w-full text-4xl font-bold leading-10 text-teal-800 whitespace-nowrap max-md:flex-wrap max-md:mt-10 max-md:max-w-full">
-        <div className="flex">Breakfast(Meal)</div>
+        <div className="flex">Breakfast</div>
         <div className="flex w-[37%] max-md:max-w-full max-md:hidden">
-          Breakfast(Snacks)
+          Snacks
         </div>
       </div>
       <div className="mt-14 w-full max-md:mt-10 max-md:max-w-full">
@@ -119,9 +119,9 @@ export const HealthyMeals = () => {
       </div>
       <div className="shrink-0 mt-20 h-px border border-solid bg-neutral-700 border-neutral-700 max-md:max-w-full" />
       <div className="flex justify-between gap-5 mt-20 w-full text-4xl font-bold leading-10 text-teal-800 whitespace-nowrap max-md:flex-wrap max-md:mt-10 max-md:max-w-full">
-        <div className="flex">Lunch(Meal)</div>
+        <div className="flex">Lunch</div>
         <div className="flex w-[36%] max-md:max-w-full max-md:hidden">
-          Lunch(Snacks)
+          Snacks
         </div>
       </div>
       <div className="mt-14 w-full max-md:mt-10 max-md:max-w-full">
@@ -176,7 +176,7 @@ export const HealthyMeals = () => {
           <div className="flex flex-col ml-5 w-[38%] max-md:ml-0 max-md:w-full">
             <div className="flex justify-between gap-5 w-full text-4xl font-bold leading-10 text-teal-800 whitespace-nowrap max-md:flex-wrap max-md:mt-10 max-md:max-w-full">
               <div className="flex hidden max-md:max-w-full max-md:block">
-                Lunch(Snacks)
+                Snacks
               </div>
             </div>
             <div className="py-8 pr-14 pl-7 w-full bg-white rounded-2xl border border-teal-800 border-solid max-md:px-5 max-md:mt-10 max-md:max-w-full">
@@ -205,9 +205,9 @@ export const HealthyMeals = () => {
       </div>
       <div className="shrink-0 mt-20 h-px border border-solid bg-neutral-700 border-neutral-700 max-md:max-w-full" />
       <div className="flex justify-between gap-5 mt-24 w-full text-4xl font-bold leading-10 text-teal-800 whitespace-nowrap max-md:flex-wrap max-md:mt-10 max-md:max-w-full">
-        <div className="flex">Dinner(Meal)</div>
+        <div className="flex">Dinner</div>
         <div className="flex w-[36%] max-md:max-w-full max-md:hidden">
-          Dinner(Snacks)
+          Snacks
         </div>
       </div>
       <div className="mt-10 w-full max-md:mt-10 max-md:max-w-full">
@@ -264,7 +264,7 @@ export const HealthyMeals = () => {
           <div className="flex flex-col ml-5 w-[38%] max-md:ml-0 max-md:w-full">
             <div className="flex justify-between gap-5 w-full text-4xl font-bold leading-10 text-teal-800 whitespace-nowrap max-md:flex-wrap max-md:mt-10 max-md:max-w-full">
               <div className="flex hidden max-md:max-w-full max-md:block">
-                Dinner(Snacks)
+                Snacks
               </div>
             </div>
             <div className="py-8 pr-14 pl-7 w-full bg-white rounded-2xl border border-teal-800 border-solid max-md:px-5 max-md:mt-10 max-md:max-w-full">

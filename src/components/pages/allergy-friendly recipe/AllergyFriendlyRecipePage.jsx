@@ -2,6 +2,7 @@ import { Footer } from "../../../utils/Footer"
 import { Header } from "../../../utils/Header"
 import { Cover } from "./Cover"
 import { RecipeCat } from "./RecipeCat"
+import { Meet } from "./Meet"
 
 
 const AllergyFriendlyRecipePage = () => {
@@ -11,6 +12,7 @@ const AllergyFriendlyRecipePage = () => {
             <Header />
             <Cover />
             <RecipeCat />
+            <Meet />
             <Footer />
           </div>
         </>
