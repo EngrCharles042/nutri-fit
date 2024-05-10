@@ -15,22 +15,22 @@ export const HealthyMeals = () => {
         Healthy Meal Categories
       </div>
       <div className="shrink-0 self-center mt-2 h-2.5 rounded-xl bg-neutral-700 w-[250px]" />
-      <div className="flex flex-wrap gap-5 justify-around items-center self-center mt-16 w-full text-4xl font-bold leading-10 whitespace-nowrap max-w-[1179px] text-neutral-700 max-md:flex-wrap max-md:mt-10 max-md:max-w-full">
+      <div className="flex flex-wrap gap-2 justify-center items-center self-center mt-16 w-full text-4xl font-bold leading-10 whitespace-nowrap text-neutral-700 max-md:flex-wrap max-md:mt-10 max-md:max-w-full">
         <div className="flex px-7 py-3 cursor-pointer hover:text-white hover:bg-amber-700 rounded-xl max-md:px-5">
-          Proteins
+          Traditional Diet
         </div>
         <div className="flex px-7 py-3 cursor-pointer hover:text-white hover:bg-amber-700 rounded-xl">
-          Vegetables
+          Plant-based Meals
         </div>
         <div className="flex px-7 py-3 cursor-pointer hover:text-white hover:bg-amber-700 rounded-xl">
-          Fruits
+          Ketogenic Meals
         </div>
         <div className="flex px-7 py-3 cursor-pointer hover:text-white hover:bg-amber-700 rounded-xl">
-          Carbohydrates
+          Afro-fusion Meals
         </div>
       </div>
       <div className="flex justify-between gap-5 mt-24 w-full text-4xl font-bold leading-10 text-teal-800 whitespace-nowrap max-md:flex-wrap max-md:mt-10 max-md:max-w-full">
-        <div className="flex">Breakfast</div>
+        <div className="flex">Northern Chop House</div>
         <div className="flex w-[37%] max-md:max-w-full max-md:hidden">
           Snacks
         </div>
@@ -50,15 +50,15 @@ export const HealthyMeals = () => {
                   </div>
                   <div className="flex flex-col ml-5 w-[64%] max-md:ml-0 max-md:w-full">
                     <div className="flex flex-col self-stretch my-auto text-lg font-bold leading-5 max-md:mt-10">
-                      <div className="text-3xl text-teal-800">
-                        Toast Protein
-                      </div>
+                      <div className="text-3xl text-teal-800">Danwake</div>
                       <div className="mt-7 leading-6 text-neutral-700">
                         Two pieces of eggs + Two pieces of toast
                         <br />
                         plus vegeatbles
                       </div>
-                      <div className="mt-5 text-red-500">540 calories</div>
+                      <div className="mt-10 text-lg leading-10 text-center whitespace-nowrap rounded-lg border border-red-500 border-solid bg-zinc-50 max-w-[179px] text-stone-800 cursor-pointer hover:text-white hover:bg-amber-700">
+                        Subscribe
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -75,13 +75,13 @@ export const HealthyMeals = () => {
                   </div>
                   <div className="flex flex-col ml-5 w-[64%] max-md:ml-0 max-md:w-full">
                     <div className="flex flex-col self-stretch my-auto text-lg font-bold leading-5 max-md:mt-10">
-                      <div className="text-3xl text-teal-800">
-                        Banana smoothie
-                      </div>
+                      <div className="text-3xl text-teal-800">Tuwo Farina</div>
                       <div className="mt-6 leading-[83%] text-neutral-700">
                         Two bananas blended with blueberry
                       </div>
-                      <div className="mt-6 text-red-500">100 calories</div>
+                      <div className="mt-10 text-lg leading-10 text-center whitespace-nowrap rounded-lg border border-red-500 border-solid bg-zinc-50 max-w-[179px] text-stone-800 cursor-pointer hover:text-white hover:bg-amber-700">
+                        Subscribe
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -91,7 +91,7 @@ export const HealthyMeals = () => {
           <div className="flex flex-col ml-5 w-[39%] max-md:ml-0 max-md:w-full">
             <div className="text-4xl font-bold leading-10 text-teal-800 whitespace-nowrap max-md:flex-wrap max-md:mt-10 max-md:max-w-full">
               <div className="flex hidden max-md:max-w-full max-md:block">
-                Breakfast(Snacks)
+                Snacks
               </div>
             </div>
             <div className="px-8 py-8 w-full bg-white rounded-2xl border border-teal-800 border-solid max-md:px-5 max-md:mt-10 max-md:max-w-full">
@@ -119,7 +119,7 @@ export const HealthyMeals = () => {
       </div>
       <div className="shrink-0 mt-20 h-px border border-solid bg-neutral-700 border-neutral-700 max-md:max-w-full" />
       <div className="flex justify-between gap-5 mt-20 w-full text-4xl font-bold leading-10 text-teal-800 whitespace-nowrap max-md:flex-wrap max-md:mt-10 max-md:max-w-full">
-        <div className="flex">Lunch</div>
+        <div className="flex">Western Mamaput</div>
         <div className="flex w-[36%] max-md:max-w-full max-md:hidden">
           Snacks
         </div>
@@ -140,12 +140,14 @@ export const HealthyMeals = () => {
                   <div className="flex flex-col ml-5 w-[64%] max-md:ml-0 max-md:w-full">
                     <div className="flex flex-col self-stretch my-auto text-lg font-bold leading-5 max-md:mt-10">
                       <div className="text-3xl text-teal-800">
-                        A salmon with prawns
+                        Amala and Ewedu{" "}
                       </div>
                       <div className="mt-5 text-neutral-700">
-                        Two eggs + Tomatoes +lettuce
+                        Two eggs + Tomatoes + lettuce
                       </div>
-                      <div className="mt-5 text-red-500">540 calories</div>
+                      <div className="mt-10 text-lg leading-10 text-center whitespace-nowrap rounded-lg border border-red-500 border-solid bg-zinc-50 max-w-[179px] text-stone-800 cursor-pointer hover:text-white hover:bg-amber-700">
+                        Subscribe
+                      </div>{" "}
                     </div>
                   </div>
                 </div>
@@ -153,7 +155,7 @@ export const HealthyMeals = () => {
               <div className="shrink-0 mt-7 h-px border border-solid bg-neutral-700 border-neutral-700 max-md:max-w-full" />
               <div className="mt-7 max-w-full w-[427px]">
                 <div className="flex gap-5 max-md:flex-col max-md:gap-0">
-                  <div className="flex flex-col w-[55%] max-md:ml-0 max-md:w-full">
+                  <div className="flex flex-col w-[36%] max-md:ml-0 max-md:w-full">
                     <img
                       loading="lazy"
                       srcSet={img5}
@@ -162,11 +164,15 @@ export const HealthyMeals = () => {
                   </div>
                   <div className="flex flex-col ml-5 w-[45%] max-md:ml-0 max-md:w-full">
                     <div className="flex flex-col self-stretch my-auto text-lg font-bold leading-5 max-md:mt-10">
-                      <div className="text-3xl text-teal-800">Mango</div>
+                      <div className="text-3xl text-teal-800">
+                        Iyan and Efo Riro
+                      </div>
                       <div className="mt-5 text-neutral-700">
                         Two diced mangoes
                       </div>
-                      <div className="mt-5 text-red-500">100 calories</div>
+                      <div className="mt-10 text-lg leading-10 text-center whitespace-nowrap rounded-lg border border-red-500 border-solid bg-zinc-50 max-w-[179px] text-stone-800 cursor-pointer hover:text-white hover:bg-amber-700">
+                        Subscribe
+                      </div>{" "}
                     </div>
                   </div>
                 </div>
@@ -205,7 +211,7 @@ export const HealthyMeals = () => {
       </div>
       <div className="shrink-0 mt-20 h-px border border-solid bg-neutral-700 border-neutral-700 max-md:max-w-full" />
       <div className="flex justify-between gap-5 mt-24 w-full text-4xl font-bold leading-10 text-teal-800 whitespace-nowrap max-md:flex-wrap max-md:mt-10 max-md:max-w-full">
-        <div className="flex">Dinner</div>
+        <div className="flex">Southern Canteens</div>
         <div className="flex w-[36%] max-md:max-w-full max-md:hidden">
           Snacks
         </div>
@@ -226,14 +232,16 @@ export const HealthyMeals = () => {
                   <div className="flex flex-col ml-5 w-[64%] max-md:ml-0 max-md:w-full">
                     <div className="flex flex-col self-stretch my-auto text-lg font-bold leading-5 max-md:mt-10">
                       <div className="text-3xl text-teal-800">
-                        Salad with salmon
+                        Fufu and Oha Soup{" "}
                       </div>
                       <div className="mt-7 leading-6 text-neutral-700">
                         Two pieces of eggs + Two pieces of toast
                         <br />
                         plus vegeatbles
                       </div>
-                      <div className="mt-5 text-red-500">540 calories</div>
+                      <div className="mt-10 text-lg leading-10 text-center whitespace-nowrap rounded-lg border border-red-500 border-solid bg-zinc-50 max-w-[179px] text-stone-800 cursor-pointer hover:text-white hover:bg-amber-700">
+                        Subscribe
+                      </div>{" "}
                     </div>
                   </div>
                 </div>
@@ -241,7 +249,7 @@ export const HealthyMeals = () => {
               <div className="shrink-0 mt-7 h-px border border-solid bg-neutral-700 border-neutral-700 max-md:max-w-full" />
               <div className="mt-6 max-w-full w-[417px]">
                 <div className="flex gap-5 max-md:flex-col max-md:gap-0">
-                  <div className="flex flex-col w-[56%] max-md:ml-0 max-md:w-full">
+                  <div className="flex flex-col w-[36%] max-md:ml-0 max-md:w-full">
                     <img
                       loading="lazy"
                       srcSet={img8}
@@ -250,11 +258,13 @@ export const HealthyMeals = () => {
                   </div>
                   <div className="flex flex-col ml-5 w-[44%] max-md:ml-0 max-md:w-full">
                     <div className="flex flex-col self-stretch my-auto text-lg font-bold leading-5 max-md:mt-10">
-                      <div className="text-3xl text-teal-800">Orange</div>
+                      <div className="text-3xl text-teal-800">Isi Ewu</div>
                       <div className="mt-5 text-neutral-700">
                         Two sliced oranges
                       </div>
-                      <div className="mt-5 text-red-500">100 calories</div>
+                      <div className="mt-10 text-lg leading-10 text-center whitespace-nowrap rounded-lg border border-red-500 border-solid bg-zinc-50 max-w-[179px] text-stone-800 cursor-pointer hover:text-white hover:bg-amber-700">
+                        Subscribe
+                      </div>{" "}
                     </div>
                   </div>
                 </div>

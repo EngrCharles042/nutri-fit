@@ -2,6 +2,9 @@ import { useState } from "react";
 
 import coverImg from "../../../assets/images/community/coverImg.svg";
 import coverImgMobile from "../../../assets/images/community/coverMobile.svg";
+import ellipse1 from "../../../assets/images/community/ellipse1.svg";
+import ellipse2 from "../../../assets/images/community/ellipse2.svg";
+import ellipse3 from "../../../assets/images/community/ellipse3.svg";
 
 export const Cover = () => {
   const [formData, setFormData] = useState({
@@ -138,6 +141,23 @@ export const Cover = () => {
           </div>
         </div>
       </div>
+      {/* <div className="flex flex-col max-md:ml-0 max-md:w-full">
+        <img
+            loading="lazy"
+            srcSet={ellipse1}
+            className="relative bottom-[30rem] left-[50rem] grow w-[17%] aspect-[1.22] overflow-hidden max-md:mt-7 max-md:max-w-full"
+          />
+          <img
+            loading="lazy"
+            srcSet={ellipse2}
+            className="relative top-[15rem] grow w-[17%] aspect-[1.22] max-md:mt-7 max-md:max-w-full"
+          />
+          <img
+            loading="lazy"
+            srcSet={ellipse3}
+            className="relative bottom-[-10rem] left-[50rem] grow w-[17%] aspect-[1.22] max-md:mt-7 max-md:max-w-full"
+          />
+        </div> */}
     </div>
   );
 };
