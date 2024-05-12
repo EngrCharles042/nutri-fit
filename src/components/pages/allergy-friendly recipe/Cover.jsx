@@ -16,10 +16,10 @@ export const Cover = () => {
           className="object-cover absolute inset-0 size-full hidden max-md:block"
         />
         <div className="flex relative flex-col items-center mt-52 max-w-full w-[556px] max-md:mt-10">
-          <div className="self-stretch text-5xl text-center max-md:max-w-full max-md:text-4xl">
+          <div className="self-stretch text-5xl bg-black bg-opacity-50 text-center max-md:max-w-full max-md:text-4xl">
             For Allergy-friendly Recipes, We Have Got You Covered
           </div>
-          <div className="mt-4 text-center max-md:max-w-full">
+          <div className="mt-4 bg-black bg-opacity-50 text-center max-md:max-w-full">
             For Allergies, we understand people can be allergic to some recipes.
             Here at NutriFit, we have something for you
           </div>
