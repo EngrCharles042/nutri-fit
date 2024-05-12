@@ -5,7 +5,7 @@ export const Meet = () => {
   return (
     <div className="flex justify-center items-center px-16 py-20 bg-rose-50 shadow-2xl max-md:px-5">
       <div className="max-w-full w-[893px] max-md:mt-10">
-        <div className="mb-20 text-5xl text-center font-bold text-teal-800 leading-[54px] max-md:max-w-full max-md:text-4xl">
+        <div className="mb-20 text-5xl text-center font-bold text-teal-800 leading-[54px] max-md:max-w-full max-md:text-4xl max-md:mb-10">
           Meet your Nutritionists
         </div>
 
@@ -31,12 +31,12 @@ export const Meet = () => {
 
         <div className="flex gap-5 max-md:flex-col max-md:gap-0">
           <div className="flex flex-col w-[42%] max-md:ml-0 max-md:w-full">
-            <div className="flex flex-col justify-center grow py-20 w-full bg-teal-800 rounded-3xl shadow-2xl max-md:mt-10">
-              <div className="relative w-[27rem] right-5 flex flex-col items-center px-5 py-10 bg-teal-800 rounded-3xl shadow-2xl aspect-square max-md:px-5">
+            <div className="flex flex-col justify-center grow py-20 w-full max-md:w-[15rem] max-md:self-center bg-teal-800 rounded-3xl shadow-2xl max-md:mt-10">
+              <div className="relative w-[27rem] max-md:w-[17.5rem] self-center flex flex-col items-center px-5 py-10 bg-teal-800 rounded-3xl shadow-2xl aspect-square max-md:px-5">
                 <img
                   loading="lazy"
                   srcSet={img10}
-                  className="w-full aspect-square w-[20rem]"
+                  className="w-full aspect-square w-[40rem]"
                 />
               </div>
             </div>
