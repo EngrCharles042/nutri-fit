@@ -6,11 +6,10 @@ export const YogaInstructors = () => {
   return (
     <div className="flex flex-col items-center px-5 mt-20">
       <div className="text-5xl text-center font-bold leading-[54px] text-neutral-700 max-md:max-w-full max-md:text-4xl">
-        Meet your Yoga Instructors
+      Meet your Weightloss Coach
       </div>
-      <div className="mt-6 text-lg text-center text-neutral-700 max-md:max-w-full">
-        Lorem ipsum dolor sit amet, conse ctetur adipis cing elit, sed do you a
-        dips
+      <div className="mt-6 text-lg text-center text-neutral-700 w-[30%] max-md:max-w-full">
+      Our Seasoned weightloss coach have got you covered for your body.
       </div>
       <div className="self-stretch mt-8 w-full max-md:max-w-full">
         <div className="flex gap-5 max-md:flex-col max-md:gap-0">

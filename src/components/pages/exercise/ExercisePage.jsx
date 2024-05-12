@@ -17,11 +17,11 @@ const ExercisePage = () => {
         <Cover />
         <BestChoice />
         <Fitness />
-        <Instructors />
+        {/* <Instructors /> */}
         <Yoga />
         <YogaInstructors />
         <Pilates />
-        <PilateInstructors />
+        {/* <PilateInstructors /> */}
         <Footer />
       </div>
     </>

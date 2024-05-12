@@ -10,24 +10,24 @@ export const Meet = () => {
         </div>
 
         <div className="flex flex-col mt-10 hidden max-md:block max-md:mt-10 max-md:max-w-full">
-              <img src={img1} alt="line" />
-              <div className="text-4xl font-bold text-center text-teal-800 max-md:max-w-full">
-                Matilde Ikegwuonu
-              </div>
-              <div className="mt-5 text-6xl font-extrabold text-amber-700 leading-[93.88799999999999px] max-md:mt-5 max-md:max-w-full max-md:text-4xl">
-                “
-              </div>
-              <div className="flex flex-col pl-14 max-md:pl-5 max-md:max-w-full">
-                <div className="self-start text-lg leading-7 text-neutral-700 max-md:max-w-full">
-                  Asides being a trained Nutritionist, Matilde has raised 3 kids
-                  with peanut and shellfish allergies. Her recipes are a smooth
-                  medley of Nigerian cusine and allergen-free food
-                </div>
-                <div className="self-end mt-5 text-6xl font-extrabold text-amber-700 leading-[93.88799999999999px] max-md:mt-5 max-md:text-4xl">
-                  „
-                </div>
-              </div>
+          <img src={img1} alt="line" />
+          <div className="text-4xl font-bold text-center text-teal-800 max-md:max-w-full">
+            Matilde Ikegwuonu
+          </div>
+          <div className="mt-5 text-6xl font-extrabold text-amber-700 leading-[93.88799999999999px] max-md:mt-5 max-md:max-w-full max-md:text-4xl">
+            “
+          </div>
+          <div className="flex flex-col pl-14 max-md:pl-5 max-md:max-w-full">
+            <div className="self-start text-lg leading-7 text-neutral-700 max-md:max-w-full">
+              Asides being a trained Nutritionist, Matilde has raised 3 kids
+              with peanut and shellfish allergies. Her recipes are a smooth
+              medley of Nigerian cusine and allergen-free food
             </div>
+            <div className="self-end mt-5 text-6xl font-extrabold text-amber-700 leading-[93.88799999999999px] max-md:mt-5 max-md:text-4xl">
+              „
+            </div>
+          </div>
+        </div>
 
         <div className="flex gap-5 max-md:flex-col max-md:gap-0">
           <div className="flex flex-col w-[42%] max-md:ml-0 max-md:w-full">
