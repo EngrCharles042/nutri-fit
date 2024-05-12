@@ -10,9 +10,8 @@ export const RecipeCat = () => {
       <div className="self-center text-5xl font-bold text-teal-800 leading-[54px] max-md:text-4xl">
         Recipes Categories
       </div>
-      <div className="self-center mt-10 text-lg text-center text-neutral-700 max-md:max-w-full">
-        Discover a delicious fusion of Nigerian cuisine and allergy-friendly
-        recipes
+      <div className="self-center mt-10 text-lg text-center text-neutral-700 w-[30%] max-md:w-full max-md:max-w-full">
+      Discover Nigerian culinary traditions and allergy-conscious cooking, promising a flavorful experience that caters to diverse tastes and dietary needs.
       </div>
       <div className="mt-16 w-full max-md:mt-10 max-md:max-w-full">
         <div className="flex gap-5 max-md:flex-col max-md:gap-0 max-md:flex-col-reverse">

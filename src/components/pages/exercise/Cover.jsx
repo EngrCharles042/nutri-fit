@@ -16,10 +16,10 @@ export const Cover = () => {
         className="object-cover absolute inset-0 size-full hidden max-md:block"
       />
       <div className="flex relative flex-col items-center mt-20 max-w-full w-[33.375rem] max-md:mt-10">
-        <div className="self-stretch text-5xl text-center leading-[60px] max-md:max-w-full max-md:text-4xl max-md:leading-[3.688rem]">
+        <div className="self-stretch text-5xl text-center bg-black bg-opacity-50 leading-[60px] max-md:max-w-full max-md:text-4xl max-md:leading-[3.688rem]">
           Give Shape To Your Body With Workouts At NutriFit.
         </div>
-        <div className="mt-9 text-center max-md:max-w-full">
+        <div className="mt-9 text-center bg-black bg-opacity-50 max-md:max-w-full">
           With our numerous exercises here at NutriFit, we have got your body
           covered. From Fitness to Yoga to Pilates, we are here for you.
         </div>

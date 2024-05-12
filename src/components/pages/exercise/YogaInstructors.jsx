@@ -6,10 +6,10 @@ export const YogaInstructors = () => {
   return (
     <div className="flex flex-col items-center px-5 mt-20">
       <div className="text-5xl text-center font-bold leading-[54px] text-neutral-700 max-md:max-w-full max-md:text-4xl">
-      Meet your Weightloss Coach
+        Meet your Weightloss Coach
       </div>
-      <div className="mt-6 text-lg text-center text-neutral-700 w-[30%] max-md:max-w-full">
-      Our Seasoned weightloss coach have got you covered for your body.
+      <div className="mt-6 text-lg text-center text-neutral-700 w-[30%] max-md:w-full">
+        Our Seasoned weightloss coach have got you covered for your body.
       </div>
       <div className="self-stretch mt-8 w-full max-md:max-w-full">
         <div className="flex gap-5 max-md:flex-col max-md:gap-0">
@@ -24,7 +24,7 @@ export const YogaInstructors = () => {
                 Jessica Okuku
               </div>
               <div className="self-center mt-3.5 text-base">
-                Yoga Instructor
+                Weight-loss Coach
               </div>
             </div>
           </div>
@@ -39,7 +39,7 @@ export const YogaInstructors = () => {
                 Ayo Oluwole
               </div>
               <div className="self-center mt-3.5 text-base">
-                Yoga Instructor
+                Weight-loss Coach
               </div>
             </div>
           </div>
@@ -54,7 +54,7 @@ export const YogaInstructors = () => {
                 Sharon Ephraim
               </div>
               <div className="self-center mt-3.5 max-md:mt-1.5 text-base">
-                Yoga Instructor
+                Weight-loss Coach
               </div>
             </div>
           </div>
