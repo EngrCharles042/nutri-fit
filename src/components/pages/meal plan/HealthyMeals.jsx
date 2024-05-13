@@ -40,7 +40,7 @@ export const HealthyMeals = () => {
           />
         </div>
         <div className="flex flex-col ml-5 w-6/12 max-md:ml-0 max-md:w-full">
-          <div className="flex flex-col px-5 max-md:px-0 mt-20 text-lg max-md:mt-10 max-md:max-w-full">
+          <div className="flex flex-col px-5 max-md:px-0 my-auto text-lg max-md:mt-10 max-md:max-w-full">
             <div className="text-4xl font-bold leading-10 text-teal-800 max-md:max-w-full">
               Northern Chop House
             </div>
