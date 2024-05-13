@@ -27,8 +27,10 @@ export const Announcement = () => {
                 lifestyle.
               </div>
               <a
-              href="https://chat.whatsapp.com/KyauQw4KQGJ0eJt4lCM6Gp"
-              target="_blank" className="flex gap-5 self-start mt-8">
+                href="https://chat.whatsapp.com/GP5Ux1J1dd91kZPnqpoVJ9"
+                target="_blank"
+                className="flex gap-5 self-start mt-8"
+              >
                 <img
                   loading="lazy"
                   src={arrow}

@@ -16,17 +16,16 @@ export const Contact = () => {
     e.preventDefault();
 
     try {
-        // Handle success (redirect, show message, etc.)
-        console.log("Message sent succesfully!!!");
+      // Handle success (redirect, show message, etc.)
+      console.log("Message sent succesfully!!!");
 
-        // Reset form data
-    setFormData({
-      fullName: "",
-      phoneNumber: "",
-      email: "",
-      message: "",
-    });
-
+      // Reset form data
+      setFormData({
+        fullName: "",
+        phoneNumber: "",
+        email: "",
+        message: "",
+      });
     } catch (error) {
       // Handle error (display error message, log, etc.)
       console.error("Message sending failed:", error.message);
@@ -46,50 +45,55 @@ export const Contact = () => {
       </div>
       <div className="mt-9 w-full max-w-[77.5rem] max-md:max-w-full">
         <div className="flex gap-5 max-md:flex-col max-md:gap-0">
-          <form onSubmit={handleSubmit} className="flex flex-col w-[63%] max-md:ml-0 max-md:w-full">
+          <form
+            onSubmit={handleSubmit}
+            className="flex flex-col w-[63%] max-md:ml-0 max-md:w-full"
+          >
             <div className="flex flex-col grow items-start text-lg font-bold text-zinc-800 max-md:mt-10 max-md:max-w-full">
               <input
-              type="text"
-              name="fullName"
-              value={formData.fullName}
-              onChange={handleChange}
-              id="full-name"
-              autoComplete="given-name"
+                type="text"
+                name="fullName"
+                value={formData.fullName}
+                onChange={handleChange}
+                id="full-name"
+                autoComplete="given-name"
                 className="justify-center items-start p-5 max-w-full rounded-xl border border-solid border-zinc-800 w-[26.75rem]"
                 placeholder="Full Name"
               />
               <input
-              type="tel"
-              name="phoneNumber"
-              value={formData.phoneNumber}
-              onChange={handleChange}
-              id="tel"
-              autoComplete="tel"
+                type="tel"
+                name="phoneNumber"
+                value={formData.phoneNumber}
+                onChange={handleChange}
+                id="tel"
+                autoComplete="tel"
                 className="justify-center items-start p-5 mt-7 max-w-full rounded-xl border border-solid border-zinc-800 w-[26.75rem]"
                 placeholder="Phone Number"
               />
               <input
-              type="email"
-              name="email"
-              value={formData.email}
-              onChange={handleChange}
-              id="email"
-              autoComplete="email"
+                type="email"
+                name="email"
+                value={formData.email}
+                onChange={handleChange}
+                id="email"
+                autoComplete="email"
                 className="justify-center items-start p-5 mt-7 max-w-full whitespace-nowrap rounded-xl border border-solid border-zinc-800 w-[26.75rem]"
                 placeholder="Email"
               />
               <textarea
-              name="message"
-              value={formData.message}
-              onChange={handleChange}
-              className="items-start self-stretch px-7 pt-9 pb-48 mt-7 whitespace-nowrap rounded-3xl border border-solid border-zinc-800 max-md:px-5 max-md:pb-10 max-md:max-w-full"
+                name="message"
+                value={formData.message}
+                onChange={handleChange}
+                className="items-start self-stretch px-7 pt-9 pb-48 mt-7 whitespace-nowrap rounded-3xl border border-solid border-zinc-800 max-md:px-5 max-md:pb-10 max-md:max-w-full"
                 placeholder="Message"
               />
-              <button
-              type="submit"
-              className="justify-center px-5 py-3.5 mt-7 text-white bg-amber-700 rounded-2xl cursor-pointer hover:bg-green-600">
+              <a
+                href="https://chat.whatsapp.com/GP5Ux1J1dd91kZPnqpoVJ9"
+                target="_blank"
+                className="justify-center px-5 py-3.5 mt-7 text-white bg-amber-700 rounded-2xl cursor-pointer hover:bg-green-600"
+              >
                 Send Message
-              </button>
+              </a>
             </div>
           </form>
           <div className="flex flex-col flex-wrap ml-5 w-[37%] max-md:ml-0 max-md:w-full">

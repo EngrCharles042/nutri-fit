@@ -11,13 +11,19 @@ export const RecipeCat = () => {
         Recipes Categories
       </div>
       <div className="self-center mt-10 text-lg text-center text-neutral-700 w-[30%] max-md:w-full max-md:max-w-full">
-      Discover Nigerian culinary traditions and allergy-conscious cooking, promising a flavorful experience that caters to diverse tastes and dietary needs.
+        Discover Nigerian culinary traditions and allergy-conscious cooking,
+        promising a flavorful experience that caters to diverse tastes and
+        dietary needs.
       </div>
       <div className="mt-16 w-full max-md:mt-10 max-md:max-w-full">
         <div className="flex gap-5 max-md:flex-col max-md:gap-0 max-md:flex-col-reverse">
-          <div className="justify-center self-start px-8 py-3 mt-8 text-3xl text-white bg-amber-700 cursor-pointer hover:bg-green-600 rounded-xl hidden max-md:px-5 max-md:block">
+          <a
+            href="https://chat.whatsapp.com/Fjg6ywBtrvA53nzStsVlpz"
+            target="_blank"
+            className="justify-center self-start px-8 py-3 mt-8 text-3xl text-white bg-amber-700 cursor-pointer hover:bg-green-600 rounded-xl hidden max-md:px-5 max-md:block"
+          >
             Learn More
-          </div>
+          </a>
           <div className="flex flex-col w-[41%] max-md:ml-0 max-md:w-full">
             <img
               loading="lazy"
@@ -36,9 +42,13 @@ export const RecipeCat = () => {
                 access over 100+ lactose. Free recipes curated by the best
                 nutritionists in the game.
               </div>
-              <div className="justify-center self-start px-8 py-3 mt-8 text-3xl text-white bg-amber-700 cursor-pointer hover:bg-green-600 rounded-xl max-md:px-5 max-md:hidden">
+              <a
+                href="https://chat.whatsapp.com/Fjg6ywBtrvA53nzStsVlpz"
+                target="_blank"
+                className="justify-center self-start px-8 py-3 mt-8 text-3xl text-white bg-amber-700 cursor-pointer hover:bg-green-600 rounded-xl max-md:px-5 max-md:hidden"
+              >
                 Learn More
-              </div>
+              </a>
             </div>
           </div>
         </div>
@@ -55,9 +65,13 @@ export const RecipeCat = () => {
                 your enjoyment. Access over 100+ recipes specially curated by
                 our nutritionists devoid of shellfish.{" "}
               </div>
-              <div className="justify-center self-start px-8 py-3 mt-12 text-3xl text-white bg-amber-700 cursor-pointer hover:bg-green-600 rounded-xl max-md:px-5 max-md:mt-10 max-md:hidden">
+              <a
+                href="https://chat.whatsapp.com/Fjg6ywBtrvA53nzStsVlpz"
+                target="_blank"
+                className="justify-center self-start px-8 py-3 mt-12 text-3xl text-white bg-amber-700 cursor-pointer hover:bg-green-600 rounded-xl max-md:px-5 max-md:mt-10 max-md:hidden"
+              >
                 Learn More
-              </div>
+              </a>
             </div>
           </div>
           <div className="flex flex-col ml-5 w-[41%] max-md:ml-0 max-md:w-full">
@@ -67,16 +81,24 @@ export const RecipeCat = () => {
               className="grow w-full aspect-[0.93] max-md:mt-10 max-md:max-w-full"
             />
           </div>
-          <div className="justify-center self-start px-8 py-3 mt-8 text-3xl text-white bg-amber-700 cursor-pointer hover:bg-green-600 rounded-xl hidden max-md:px-5 max-md:block">
+          <a
+            href="https://chat.whatsapp.com/Fjg6ywBtrvA53nzStsVlpz"
+            target="_blank"
+            className="justify-center self-start px-8 py-3 mt-8 text-3xl text-white bg-amber-700 cursor-pointer hover:bg-green-600 rounded-xl hidden max-md:px-5 max-md:block"
+          >
             Learn More
-          </div>
+          </a>
         </div>
       </div>
       <div className="mt-36 w-full max-md:mt-10 max-md:max-w-full">
         <div className="flex gap-5 max-md:flex-col max-md:gap-0 max-md:flex-col-reverse">
-          <div className="justify-center self-start px-8 py-3 mt-8 text-3xl text-white bg-amber-700 cursor-pointer hover:bg-green-600 rounded-xl hidden max-md:px-5 max-md:block">
+          <a
+            href="https://chat.whatsapp.com/Fjg6ywBtrvA53nzStsVlpz"
+            target="_blank"
+            className="justify-center self-start px-8 py-3 mt-8 text-3xl text-white bg-amber-700 cursor-pointer hover:bg-green-600 rounded-xl hidden max-md:px-5 max-md:block"
+          >
             Learn More
-          </div>
+          </a>
           <div className="flex flex-col w-[41%] max-md:ml-0 max-md:w-full">
             <img
               loading="lazy"
@@ -94,9 +116,13 @@ export const RecipeCat = () => {
                 of our peanut- free recipes. From fruit butters to tree nut
                 subsitutes. We provide a finger-licking culinary experience.{" "}
               </div>
-              <div className="justify-center self-start px-8 py-3 mt-12 text-3xl text-white bg-amber-700 cursor-pointer hover:bg-green-600 rounded-xl max-md:px-5 max-md:mt-10 max-md:hidden">
+              <a
+                href="https://chat.whatsapp.com/Fjg6ywBtrvA53nzStsVlpz"
+                target="_blank"
+                className="justify-center self-start px-8 py-3 mt-12 text-3xl text-white bg-amber-700 cursor-pointer hover:bg-green-600 rounded-xl max-md:px-5 max-md:mt-10 max-md:hidden"
+              >
                 Learn More
-              </div>
+              </a>
             </div>
           </div>
         </div>
@@ -115,9 +141,13 @@ export const RecipeCat = () => {
                 your dietary needs. Gluten-free has never tasted this delicious!
                 <br />
               </div>
-              <div className="justify-center self-start px-8 py-3 mt-12 text-3xl text-white bg-amber-700 cursor-pointer hover:bg-green-600 rounded-xl max-md:px-5 max-md:mt-10 max-md:hidden">
+              <a
+                href="https://chat.whatsapp.com/Fjg6ywBtrvA53nzStsVlpz"
+                target="_blank"
+                className="justify-center self-start px-8 py-3 mt-12 text-3xl text-white bg-amber-700 cursor-pointer hover:bg-green-600 rounded-xl max-md:px-5 max-md:mt-10 max-md:hidden"
+              >
                 Learn More
-              </div>
+              </a>
             </div>
           </div>
           <div className="flex flex-col ml-5 w-[41%] max-md:ml-0 max-md:w-full">
@@ -127,16 +157,24 @@ export const RecipeCat = () => {
               className="grow w-full aspect-[0.93] max-md:mt-10 max-md:max-w-full"
             />
           </div>
-          <div className="justify-center self-start px-8 py-3 mt-8 text-3xl text-white bg-amber-700 cursor-pointer hover:bg-green-600 rounded-xl hidden max-md:px-5 max-md:block">
+          <a
+            href="https://chat.whatsapp.com/Fjg6ywBtrvA53nzStsVlpz"
+            target="_blank"
+            className="justify-center self-start px-8 py-3 mt-8 text-3xl text-white bg-amber-700 cursor-pointer hover:bg-green-600 rounded-xl hidden max-md:px-5 max-md:block"
+          >
             Learn More
-          </div>
+          </a>
         </div>
       </div>
       <div className="mt-24 max-md:mt-10 max-md:max-w-full">
         <div className="flex gap-5 max-md:flex-col max-md:gap-0 max-md:flex-col-reverse">
-          <div className="justify-center self-start px-8 py-3 mt-8 text-3xl text-white bg-amber-700 cursor-pointer hover:bg-green-600 rounded-xl hidden max-md:px-5 max-md:block">
+          <a
+            href="https://chat.whatsapp.com/Fjg6ywBtrvA53nzStsVlpz"
+            target="_blank"
+            className="justify-center self-start px-8 py-3 mt-8 text-3xl text-white bg-amber-700 cursor-pointer hover:bg-green-600 rounded-xl hidden max-md:px-5 max-md:block"
+          >
             Learn More
-          </div>
+          </a>
           <div className="flex flex-col w-[41%] max-md:ml-0 max-md:w-full">
             <img
               loading="lazy"
@@ -156,9 +194,13 @@ export const RecipeCat = () => {
                 twist and choose from our list of mouthwatering creations, free
                 from the sea but bursting with deliciousness!
               </div>
-              <div className="justify-center self-start px-8 py-3 mt-12 text-3xl text-white bg-amber-700 cursor-pointer hover:bg-green-600 rounded-xl max-md:px-5 max-md:mt-10 max-md:hidden">
+              <a
+                href="https://chat.whatsapp.com/Fjg6ywBtrvA53nzStsVlpz"
+                target="_blank"
+                className="justify-center self-start px-8 py-3 mt-12 text-3xl text-white bg-amber-700 cursor-pointer hover:bg-green-600 rounded-xl max-md:px-5 max-md:mt-10 max-md:hidden"
+              >
                 Learn More
-              </div>
+              </a>
             </div>
           </div>
         </div>

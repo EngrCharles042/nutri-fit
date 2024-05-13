@@ -28,7 +28,7 @@ export const Fitness = () => {
                 </div>
               </div>
               <a
-                href="https://chat.whatsapp.com/KyauQw4KQGJ0eJt4lCM6Gp"
+                href="https://chat.whatsapp.com/EooGVENwE2t0Pz7AVSguIp"
                 target="_blank"
                 className="mt-10 text-lg leading-10 text-center whitespace-nowrap rounded-lg border border-red-500 border-solid bg-zinc-50 max-w-[179px] text-stone-800 cursor-pointer hover:text-white hover:bg-amber-700"
               >
@@ -52,7 +52,7 @@ export const Fitness = () => {
               </div>
             </div>
             <a
-              href="https://chat.whatsapp.com/KyauQw4KQGJ0eJt4lCM6Gp"
+              href="https://chat.whatsapp.com/EooGVENwE2t0Pz7AVSguIp"
               target="_blank"
               className="mt-10 text-lg leading-10 text-center whitespace-nowrap rounded-lg border border-red-500 border-solid bg-zinc-50 max-w-[179px] text-stone-800 cursor-pointer hover:text-white hover:bg-amber-700"
             >
@@ -76,7 +76,7 @@ export const Fitness = () => {
               </div>
             </div>
             <a
-              href="https://chat.whatsapp.com/KyauQw4KQGJ0eJt4lCM6Gp"
+              href="https://chat.whatsapp.com/EooGVENwE2t0Pz7AVSguIp"
               target="_blank"
               className="mt-10 text-lg leading-10 text-center whitespace-nowrap rounded-lg border border-red-500 border-solid bg-zinc-50 max-w-[179px] text-stone-800 cursor-pointer hover:text-white hover:bg-amber-700"
             >
