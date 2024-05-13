@@ -1,12 +1,6 @@
-import img1 from "../../../assets/images/mealPlan/img1.svg";
 import img2 from "../../../assets/images/mealPlan/img2.svg";
-import img3 from "../../../assets/images/mealPlan/img3.svg";
 import img4 from "../../../assets/images/mealPlan/img4.svg";
-import img5 from "../../../assets/images/mealPlan/img5.svg";
-import img6 from "../../../assets/images/mealPlan/img6.svg";
-import img7 from "../../../assets/images/mealPlan/img7.svg";
 import img8 from "../../../assets/images/mealPlan/img8.svg";
-import img9 from "../../../assets/images/mealPlan/img9.svg";
 
 export const HealthyMeals = () => {
   return (
@@ -29,7 +23,137 @@ export const HealthyMeals = () => {
           Afro-fusion Meals
         </div>
       </div>
-      <div className="flex justify-between gap-5 mt-24 w-full text-4xl font-bold leading-10 text-teal-800 whitespace-nowrap max-md:flex-wrap max-md:mt-10 max-md:max-w-full">
+
+      <div className="flex gap-5 max-md:flex-col max-md:gap-0 max-md:flex-col-reverse">
+        <a
+          href="https://chat.whatsapp.com/IJUlGLiAAzUCLVZX0TLnOC"
+          target="_blank"
+          className="mt-5 text-lg leading-10 text-center whitespace-nowrap rounded-lg border border-red-500 border-solid bg-zinc-50 max-w-[179px] text-stone-800 cursor-pointer hover:text-white hover:bg-amber-700 hidden max-md:block"
+        >
+          Subscribe
+        </a>
+        <div className="flex flex-col w-6/12 max-md:ml-0 max-md:w-full">
+          <img
+            loading="lazy"
+            srcSet={img2}
+            className="grow w-full aspect-[0.92] max-md:mt-0 max-md:max-w-full"
+          />
+        </div>
+        <div className="flex flex-col ml-5 w-6/12 max-md:ml-0 max-md:w-full">
+          <div className="flex flex-col px-5 max-md:px-0 mt-20 text-lg max-md:mt-10 max-md:max-w-full">
+            <div className="text-4xl font-bold leading-10 text-teal-800 max-md:max-w-full">
+              Northern Chop House
+            </div>
+            <div className="mt-10 leading-9 text-zinc-800 max-md:mt-10 max-md:max-w-full">
+              Incorporating Hausa cuisine into your diet not only adds variety
+              and flavor but also introduces a wealth of nutritional benefits
+              and cultural richness. With dishes like Danwake, Tuwo Farina and
+              over 15 Hausa delicacies you can achieve your healthy lifestyle.
+              You will not only satisfy your taste buds but also nourish your
+              body with wholesome ingredients.{" "}
+            </div>
+
+            {/* <div className="flex gap-0 items-start mt-12 max-w-full w-[232px] max-md:mt-10">
+              <div className="justify-center items-start py-1 pr-2.5 pl-10 leading-10 text-center whitespace-nowrap rounded-lg border border-red-500 border-solid bg-zinc-50 text-stone-800 max-md:px-5">
+                Subscribe
+              </div>
+              <div className="mt-8 text-white">
+                <span className="">Get it on </span>
+                <br />
+                <span className="text-xl">Play Store</span>
+              </div>
+            </div> */}
+
+            <a
+              href="https://chat.whatsapp.com/IJUlGLiAAzUCLVZX0TLnOC"
+              target="_blank"
+              className="mt-10 text-lg leading-10 text-center whitespace-nowrap rounded-lg border border-red-500 border-solid bg-zinc-50 max-w-[179px] text-stone-800 cursor-pointer hover:text-white hover:bg-amber-700 max-md:hidden"
+            >
+              Subscribe
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div className="flex gap-5 max-md:flex-col max-md:gap-0">
+        <div className="flex flex-col w-[56%] max-md:ml-0 max-md:w-full">
+          <div className="flex flex-col self-stretch px-5 max-md:px-0 my-auto text-lg max-md:mt-10 max-md:max-w-full">
+            <div className="text-4xl font-bold leading-10 text-teal-800 max-md:max-w-full">
+              Western Mamaput
+            </div>
+            <div className="mt-10 leading-9 text-zinc-800 max-md:mt-10 max-md:max-w-full">
+              Embracing Yoruba cuisine in your dieting journey promises a
+              holistic experience that not only delights the senses but also
+              nourishes the body, enriching your culinary adventure with rich
+              cultural significance and nutritional value. Why we are
+              introducing yoruba food into dieting. Keep fit with over 15 yoruba
+              dishes in your household.
+            </div>
+            <a
+              href="https://chat.whatsapp.com/IJUlGLiAAzUCLVZX0TLnOC"
+              target="_blank"
+              className="mt-10 text-lg leading-10 text-center whitespace-nowrap rounded-lg border border-red-500 border-solid bg-zinc-50 max-w-[179px] text-stone-800 cursor-pointer hover:text-white hover:bg-amber-700 max-md:hidden"
+            >
+              Subscribe
+            </a>
+          </div>
+        </div>
+        <div className="flex flex-col ml-5 w-[44%] max-md:ml-0 max-md:w-full">
+          <img
+            loading="lazy"
+            srcSet={img4}
+            className="grow w-full aspect-[0.92] max-md:mt-0 max-md:max-w-full"
+          />
+        </div>
+        <a
+              href="https://chat.whatsapp.com/IJUlGLiAAzUCLVZX0TLnOC"
+              target="_blank"
+              className="mt-5 text-lg leading-10 text-center whitespace-nowrap rounded-lg border border-red-500 border-solid bg-zinc-50 max-w-[179px] text-stone-800 cursor-pointer hover:text-white hover:bg-amber-700 hidden max-md:block"
+            >
+              Subscribe
+            </a>
+      </div>
+
+      <div className="flex gap-5 max-md:flex-col max-md:gap-0 max-md:flex-col-reverse">
+      <a
+          href="https://chat.whatsapp.com/IJUlGLiAAzUCLVZX0TLnOC"
+          target="_blank"
+          className="mt-5 text-lg leading-10 text-center whitespace-nowrap rounded-lg border border-red-500 border-solid bg-zinc-50 max-w-[179px] text-stone-800 cursor-pointer hover:text-white hover:bg-amber-700 hidden max-md:block"
+        >
+          Subscribe
+        </a>
+        <div className="flex flex-col w-6/12 max-md:ml-0 max-md:w-full">
+          <img
+            loading="lazy"
+            srcSet={img8}
+            className="grow w-full aspect-[0.92] max-md:mt-0 max-md:max-w-full"
+          />
+        </div>
+        <div className="flex flex-col ml-5 w-6/12 max-md:ml-0 max-md:w-full">
+          <div className="flex flex-col self-stretch px-5 max-md:px-0 my-auto text-lg max-md:mt-10 max-md:max-w-full">
+            <div className="text-4xl font-bold leading-10 text-teal-800 max-md:max-w-full">
+              Eastern Canteens
+            </div>
+            <div className="mt-10 leading-9 text-zinc-800 max-md:mt-10 max-md:max-w-full">
+              Exploring Igbo cuisine isn't just about trying new flavors; it's
+              about embracing a cultural journey filled with nourishment and
+              tradition. So, let dishes like Ofe Nsala and Isi Ewu not only
+              tantalize your taste buds but also enrich your diet with wholesome
+              ingredients and cultural significance. Subcribe to access over 15
+              igbo dishes for your diet !
+            </div>
+            <a
+              href="https://chat.whatsapp.com/IJUlGLiAAzUCLVZX0TLnOC"
+              target="_blank"
+              className="mt-10 text-lg leading-10 text-center whitespace-nowrap rounded-lg border border-red-500 border-solid bg-zinc-50 max-w-[179px] text-stone-800 cursor-pointer hover:text-white hover:bg-amber-700 max-md:hidden"
+            >
+              Subscribe
+            </a>
+          </div>
+        </div>
+      </div>
+
+      {/* <div className="flex justify-between gap-5 mt-24 w-full text-4xl font-bold leading-10 text-teal-800 whitespace-nowrap max-md:flex-wrap max-md:mt-10 max-md:max-w-full">
         <div className="flex text-wrap">Northern Chop House</div>
         <div className="flex w-[37%] max-md:max-w-full max-md:hidden">
           Snacks
@@ -300,8 +424,9 @@ export const HealthyMeals = () => {
             </div>
           </div>
         </div>
-      </div>
-      <div className="justify-center self-center p-4 mt-28 text-3xl font-bold text-white bg-amber-700 cursor-pointer hover:bg-green-600 rounded-xl shadow-lg max-md:mt-10">
+      </div> */}
+
+      <div className="justify-center self-center p-4 mt-20 text-3xl font-bold text-white bg-amber-700 cursor-pointer hover:bg-green-600 rounded-xl shadow-lg max-md:text-xl max-md:mt-10">
         View More <span className="text-2xl">&gt;&gt;&gt;</span>
       </div>
     </div>

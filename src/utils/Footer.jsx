@@ -7,7 +7,8 @@ export const Footer = () => {
             Newsletter Subscription
           </div>
           <div className="mt-4 text-lg text-white max-md:mr-2.5 max-md:max-w-full">
-            To get more tips on eating healthy and staying fit, subscribe to our newsletter.
+            To get more tips on eating healthy and staying fit, subscribe to our
+            newsletter.
           </div>
           <div className="flex gap-5 justify-center py-2 pr-2 pl-8 mt-6 text-2xl border border-white border-solid rounded-[50px] max-md:pl-5 max-md:max-w-full">
             <div className="flex-auto my-auto text-white">Enter your email</div>
@@ -43,12 +44,14 @@ export const Footer = () => {
               className="shrink-0 w-6 aspect-[0.18]"
             />
             <div className="flex flex-col">
-              <div className="cursor-pointer">+12 345 6789</div>
-              <div className="mt-7 max-md:mt-7 cursor-pointer">Team.nutrifit@gmail.com</div>
+              <div className="cursor-pointer">+234 8144576304</div>
+              <div className="mt-7 max-md:mt-7 cursor-pointer">
+                Team.nutrifit@gmail.com
+              </div>
               <div className="mt-6 cursor-pointer">
-                #23 city road, Junaid Tower
+                #23 Chevron drive, lekki phase 1
                 <br />
-                Mall road, city 102867.
+                Lagos city, 102867.
               </div>
             </div>
           </div>
