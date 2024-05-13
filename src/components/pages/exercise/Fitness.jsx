@@ -1,9 +1,6 @@
 import img4 from "../../../assets/images/exercise/img4.svg";
 import img5 from "../../../assets/images/exercise/img5.svg";
 import img6 from "../../../assets/images/exercise/img6.svg";
-import img7 from "../../../assets/images/exercise/img7.svg";
-import img8 from "../../../assets/images/exercise/img8.svg";
-import img9 from "../../../assets/images/exercise/img9.svg";
 
 export const Fitness = () => {
   return (
@@ -30,9 +27,13 @@ export const Fitness = () => {
                   bonding.
                 </div>
               </div>
-              <div className="mt-10 text-lg leading-10 text-center whitespace-nowrap rounded-lg border border-red-500 border-solid bg-zinc-50 max-w-[179px] text-stone-800 cursor-pointer hover:text-white hover:bg-amber-700">
+              <a
+                href="https://chat.whatsapp.com/KyauQw4KQGJ0eJt4lCM6Gp"
+                target="_blank"
+                className="mt-10 text-lg leading-10 text-center whitespace-nowrap rounded-lg border border-red-500 border-solid bg-zinc-50 max-w-[179px] text-stone-800 cursor-pointer hover:text-white hover:bg-amber-700"
+              >
                 Subscribe
-              </div>
+              </a>
             </div>
           </div>
           <div className="flex flex-col ml-5 w-[33%] max-md:ml-0 max-md:w-full">
@@ -50,9 +51,13 @@ export const Fitness = () => {
                 exercises for mind-body harmony, flexibility, and inner peace
               </div>
             </div>
-            <div className="mt-10 text-lg leading-10 text-center whitespace-nowrap rounded-lg border border-red-500 border-solid bg-zinc-50 max-w-[179px] text-stone-800 cursor-pointer hover:text-white hover:bg-amber-700">
+            <a
+              href="https://chat.whatsapp.com/KyauQw4KQGJ0eJt4lCM6Gp"
+              target="_blank"
+              className="mt-10 text-lg leading-10 text-center whitespace-nowrap rounded-lg border border-red-500 border-solid bg-zinc-50 max-w-[179px] text-stone-800 cursor-pointer hover:text-white hover:bg-amber-700"
+            >
               Subscribe
-            </div>
+            </a>
           </div>
           <div className="flex flex-col ml-5 w-[33%] max-md:ml-0 max-md:w-full">
             <div className="flex flex-col max-md:mt-6">
@@ -70,9 +75,13 @@ export const Fitness = () => {
                 with us!
               </div>
             </div>
-            <div className="mt-10 text-lg leading-10 text-center whitespace-nowrap rounded-lg border border-red-500 border-solid bg-zinc-50 max-w-[179px] text-stone-800 cursor-pointer hover:text-white hover:bg-amber-700">
+            <a
+              href="https://chat.whatsapp.com/KyauQw4KQGJ0eJt4lCM6Gp"
+              target="_blank"
+              className="mt-10 text-lg leading-10 text-center whitespace-nowrap rounded-lg border border-red-500 border-solid bg-zinc-50 max-w-[179px] text-stone-800 cursor-pointer hover:text-white hover:bg-amber-700"
+            >
               Subscribe
-            </div>
+            </a>
           </div>
         </div>
       </div>

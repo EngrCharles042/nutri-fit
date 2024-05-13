@@ -26,13 +26,15 @@ export const Announcement = () => {
                 water daily can help boost our immune system and balance our
                 lifestyle.
               </div>
-              <div className="flex gap-5 self-start mt-8">
+              <a
+              href="https://chat.whatsapp.com/KyauQw4KQGJ0eJt4lCM6Gp"
+              target="_blank" className="flex gap-5 self-start mt-8">
                 <img
                   loading="lazy"
                   src={arrow}
                   className="shrink-0 self-start aspect-[2.5] max-w-[35rem]"
                 />
-              </div>
+              </a>
             </div>
           </div>
         </div>

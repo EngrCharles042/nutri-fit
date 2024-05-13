@@ -44,9 +44,11 @@ export const Header = () => {
               Exercises{" "}
             </Link>
             <Link to="/community" className="hover:text-white hover:bg-amber-700 focus:text-amber-700 rounded-xl px-3 py-5 self-stretch my-auto cursor-pointer">Community</Link>
-            <div className="justify-center self-stretch px-3 py-5 hover:text-white hover:bg-amber-700 rounded-xl cursor-pointer max-md:px-5">
+            <a
+              href="https://chat.whatsapp.com/KyauQw4KQGJ0eJt4lCM6Gp"
+              target="_blank" className="justify-center self-stretch px-3 py-5 hover:text-white hover:bg-amber-700 rounded-xl cursor-pointer max-md:px-5">
               Contact US
-            </div>
+            </a>
           </div>
           <div className="flex self-center hidden max-md:block">
             {showMenu ? (
