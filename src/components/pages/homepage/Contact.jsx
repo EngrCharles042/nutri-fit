@@ -107,7 +107,7 @@ export const Contact = () => {
                   src="https://cdn.builder.io/api/v1/image/assets/TEMP/7e3c46cff33a9e1be7e7e65c76b00cb6c84240dca04c47b356f91822cff8440e?"
                   className="shrink-0 w-6 aspect-square"
                 />
-                <div className="flex-auto my-auto">+12 345 6789</div>
+                <div className="flex-auto my-auto">+234 8144576304</div>
               </div>
               <div className="flex gap-5 mt-8 whitespace-nowrap">
                 <img
@@ -124,9 +124,9 @@ export const Contact = () => {
                   className="shrink-0 self-start w-6 aspect-square"
                 />
                 <div className="flex-auto">
-                  #23 city road, Junaid Tower
+                #23 Chevron drive, lekki phase 1
                   <br />
-                  Mall road, city 102867.
+                  Lagos city, 102867.
                 </div>
               </div>
             </div>
